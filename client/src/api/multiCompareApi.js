@@ -1,12 +1,7 @@
-import axios from 'axios';
+import api from './axios';
 
-const API_URL = '/api/multi-compare';
+const API_URL = '/multi-compare';
 
-const getAuthHeaders = () => {
-  const token = localStorage.getItem('token');
-  return { headers: { Authorization: `Bearer ${token}` } };
-};
-
-export const runMultiComparison = (data) => axios.post(`${API_URL}/run`, data, getAuthHeaders());
-export const getMyComparisons = () => axios.get(`${API_URL}`, getAuthHeaders());
-export const getComparisonById = (id) => axios.get(`${API_URL}/${id}`, getAuthHeaders());
+export const runMultiComparison = (data) => api.post(`${API_URL}/run`, data);
+export const getMyComparisons = () => api.get(`${API_URL}`);
+export const getComparisonById = (id) => api.get(`${API_URL}/${id}`);
