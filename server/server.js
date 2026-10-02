@@ -21,12 +21,22 @@ const { notFound, errorHandler } = require('./middleware/errorMiddleware');
 // ─────────────────────────────────────────────
 // Connect to MongoDB
 // ─────────────────────────────────────────────
-connectDB();
+connectDB().catch(err => console.error('Initial DB connection attempt:', err.message));
 
 // ─────────────────────────────────────────────
 // Initialize Express App
 // ─────────────────────────────────────────────
 const app = express();
+
+// Ensure DB is connected for serverless invocations
+app.use(async (req, res, next) => {
+  try {
+    await connectDB();
+    next();
+  } catch (err) {
+    next(err);
+  }
+});
 
 // ─────────────────────────────────────────────
 // Core Middleware
@@ -85,12 +95,13 @@ app.use(errorHandler);
 // ─────────────────────────────────────────────
 // Start Server
 // ─────────────────────────────────────────────
-const PORT = process.env.PORT || 5000;
-
-app.listen(PORT, () => {
-  console.log(
-    `\n🚀 SkillSync server running in ${process.env.NODE_ENV} mode on port ${PORT}`
-  );
-});
+if (process.env.VERCEL !== '1' && require.main === module) {
+  const PORT = process.env.PORT || 5000;
+  app.listen(PORT, () => {
+    console.log(
+      `\n🚀 SkillSync server running in ${process.env.NODE_ENV || 'development'} mode on port ${PORT}`
+    );
+  });
+}
 
 module.exports = app;
