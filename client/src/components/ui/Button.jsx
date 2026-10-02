@@ -48,6 +48,7 @@ const Button = ({
   return (
     <motion.button
       type={type}
+      className={className}
       onClick={onClick}
       disabled={disabled || loading}
       whileHover={{ scale: disabled || loading ? 1 : 1.02, brightness: 1.1 }}

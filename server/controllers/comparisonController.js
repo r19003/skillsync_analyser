@@ -24,8 +24,8 @@ exports.runComparison = async (req, res) => {
     const extractedResumeSkills = resume.parsedData?.skills || [];
     
     // 4. Run Scoring
-    const scoringResult = computeATSScore({
-      resumeText: resume.parsedData?.text || resume.originalText || '',
+    const scoringResult = await computeATSScore({
+      resumeText: resume.extractedText || resume.parsedData?.text || '',
       resumeSkills: extractedResumeSkills,
       parsedSections: resume.parsedData?.sections || {},
       jobKeywords: jdData.keywords || [],

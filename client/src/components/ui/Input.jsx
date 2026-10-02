@@ -34,7 +34,7 @@ const Input = forwardRef(({
   };
 
   return (
-    <div style={{ display: 'flex', flexDirection: 'column', gap: '6px' }}>
+    <div className={className} style={{ display: 'flex', flexDirection: 'column', gap: '6px' }}>
       {label && (
         <label style={{ color: 'var(--color-muted)', fontSize: '0.83rem', fontWeight: 500, letterSpacing: '0.02em' }}>
           {label}

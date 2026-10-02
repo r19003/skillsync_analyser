@@ -55,7 +55,7 @@ const createAnalysis = async (req, res, next) => {
       strengths,
       weaknesses,
       recommendations,
-    } = computeATSScore({
+    } = await computeATSScore({
       resumeText: resume.extractedText,
       resumeSkills: resume.parsedData.skills || [],
       parsedSections: resume.parsedData.sections || {},

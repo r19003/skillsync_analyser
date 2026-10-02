@@ -1,0 +1,4457 @@
+[
+  {
+    "resourceId": "dsa-gfg-core",
+    "title": "Data Structures and Algorithms Tutorial",
+    "provider": "GeeksforGeeks",
+    "url": "https://www.geeksforgeeks.org/dsa/dsa-tutorial-learn-data-structures-and-algorithms/",
+    "roleTracks": [
+      "software-engineer"
+    ],
+    "skill": "Data Structures and Algorithms",
+    "category": "dsa",
+    "resourceType": "documentation",
+    "difficulty": "beginner",
+    "estimatedMinutes": 1200,
+    "costType": "free",
+    "handsOn": true,
+    "qualityScore": 90,
+    "description": "Structured DSA reference covering core data structures, algorithms and complexity.",
+    "prerequisites": [
+      "Programming Fundamentals"
+    ],
+    "tags": [
+      "gfg",
+      "dsa",
+      "reference"
+    ],
+    "active": true,
+    "lastVerifiedAt": "2026-10-02"
+  },
+  {
+    "resourceId": "dsa-neetcode-roadmap",
+    "title": "NeetCode 150 Roadmap",
+    "provider": "NeetCode",
+    "url": "https://neetcode.io/roadmap",
+    "roleTracks": [
+      "software-engineer"
+    ],
+    "skill": "Data Structures and Algorithms",
+    "category": "dsa",
+    "resourceType": "roadmap",
+    "difficulty": "intermediate",
+    "estimatedMinutes": 9000,
+    "costType": "freemium",
+    "handsOn": true,
+    "qualityScore": 95,
+    "description": "Pattern-based coding interview roadmap spanning arrays, graphs, dynamic programming and other core topics.",
+    "prerequisites": [
+      "Programming Fundamentals",
+      "Time and Space Complexity"
+    ],
+    "tags": [
+      "neetcode",
+      "roadmap",
+      "interview"
+    ],
+    "active": true,
+    "lastVerifiedAt": "2026-10-02"
+  },
+  {
+    "resourceId": "dsa-leetcode-75",
+    "title": "LeetCode 75 Study Plan",
+    "provider": "LeetCode",
+    "url": "https://leetcode.com/studyplan/leetcode-75/",
+    "roleTracks": [
+      "software-engineer"
+    ],
+    "skill": "Data Structures and Algorithms",
+    "category": "dsa",
+    "resourceType": "roadmap",
+    "difficulty": "intermediate",
+    "estimatedMinutes": 4500,
+    "costType": "freemium",
+    "handsOn": true,
+    "qualityScore": 94,
+    "description": "A focused 75-problem interview preparation plan suitable for approximately one to three months.",
+    "prerequisites": [
+      "Programming Fundamentals"
+    ],
+    "tags": [
+      "leetcode",
+      "study-plan",
+      "interview"
+    ],
+    "active": true,
+    "lastVerifiedAt": "2026-10-02"
+  },
+  {
+    "resourceId": "dsa-leetcode-top-150",
+    "title": "Top Interview 150",
+    "provider": "LeetCode",
+    "url": "https://leetcode.com/studyplan/top-interview-150/",
+    "roleTracks": [
+      "software-engineer"
+    ],
+    "skill": "Data Structures and Algorithms",
+    "category": "dsa",
+    "resourceType": "roadmap",
+    "difficulty": "intermediate",
+    "estimatedMinutes": 9000,
+    "costType": "freemium",
+    "handsOn": true,
+    "qualityScore": 95,
+    "description": "Comprehensive collection of classic interview questions for a longer preparation timeline.",
+    "prerequisites": [
+      "Programming Fundamentals",
+      "Basic DSA"
+    ],
+    "tags": [
+      "leetcode",
+      "top-150",
+      "interview"
+    ],
+    "active": true,
+    "lastVerifiedAt": "2026-10-02"
+  },
+  {
+    "resourceId": "dsa-visualgo",
+    "title": "Visualising Data Structures and Algorithms",
+    "provider": "VisuAlgo",
+    "url": "https://visualgo.net/en",
+    "roleTracks": [
+      "software-engineer"
+    ],
+    "skill": "Data Structures and Algorithms",
+    "category": "dsa",
+    "resourceType": "interactive-tutorial",
+    "difficulty": "beginner",
+    "estimatedMinutes": 600,
+    "costType": "free",
+    "handsOn": true,
+    "qualityScore": 91,
+    "description": "Interactive visual explanations of common data structures and algorithms.",
+    "prerequisites": [
+      "Programming Fundamentals"
+    ],
+    "tags": [
+      "visualization",
+      "algorithms"
+    ],
+    "active": true,
+    "lastVerifiedAt": "2026-10-02"
+  },
+  {
+    "resourceId": "dsa-w3schools",
+    "title": "Data Structures and Algorithms Tutorial",
+    "provider": "W3Schools",
+    "url": "https://www.w3schools.com/dsa/",
+    "roleTracks": [
+      "software-engineer"
+    ],
+    "skill": "Data Structures and Algorithms",
+    "category": "dsa",
+    "resourceType": "interactive-tutorial",
+    "difficulty": "beginner",
+    "estimatedMinutes": 600,
+    "costType": "free",
+    "handsOn": true,
+    "qualityScore": 82,
+    "description": "Beginner-friendly introduction to common DSA concepts with examples.",
+    "prerequisites": [
+      "Programming Fundamentals"
+    ],
+    "tags": [
+      "dsa",
+      "beginner"
+    ],
+    "active": true,
+    "lastVerifiedAt": "2026-10-02"
+  },
+  {
+    "resourceId": "lang-java-dev",
+    "title": "Learn Java",
+    "provider": "Oracle and Dev.java",
+    "url": "https://dev.java/learn/",
+    "roleTracks": [
+      "software-engineer"
+    ],
+    "skill": "Java",
+    "category": "programming",
+    "resourceType": "official-documentation",
+    "difficulty": "beginner",
+    "estimatedMinutes": 1200,
+    "costType": "free",
+    "handsOn": true,
+    "qualityScore": 96,
+    "description": "Official Java learning material covering language fundamentals and modern Java features.",
+    "prerequisites": [],
+    "tags": [
+      "java",
+      "official"
+    ],
+    "active": true,
+    "lastVerifiedAt": "2026-10-02"
+  },
+  {
+    "resourceId": "lang-python-tutorial",
+    "title": "The Python Tutorial",
+    "provider": "Python Software Foundation",
+    "url": "https://docs.python.org/3/tutorial/",
+    "roleTracks": [
+      "software-engineer",
+      "business-analyst"
+    ],
+    "skill": "Python",
+    "category": "programming",
+    "resourceType": "official-documentation",
+    "difficulty": "beginner",
+    "estimatedMinutes": 900,
+    "costType": "free",
+    "handsOn": true,
+    "qualityScore": 96,
+    "description": "Official Python tutorial covering syntax, data structures, modules, errors and classes.",
+    "prerequisites": [],
+    "tags": [
+      "python",
+      "official"
+    ],
+    "active": true,
+    "lastVerifiedAt": "2026-10-02"
+  },
+  {
+    "resourceId": "lang-js-mdn",
+    "title": "JavaScript Guide",
+    "provider": "MDN Web Docs",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide",
+    "roleTracks": [
+      "software-engineer"
+    ],
+    "skill": "JavaScript",
+    "category": "programming",
+    "resourceType": "official-documentation",
+    "difficulty": "beginner",
+    "estimatedMinutes": 1200,
+    "costType": "free",
+    "handsOn": true,
+    "qualityScore": 96,
+    "description": "Authoritative JavaScript guide covering language fundamentals, objects, functions and asynchronous programming.",
+    "prerequisites": [],
+    "tags": [
+      "javascript",
+      "mdn"
+    ],
+    "active": true,
+    "lastVerifiedAt": "2026-10-02"
+  },
+  {
+    "resourceId": "frontend-react-learn",
+    "title": "Learn React",
+    "provider": "React",
+    "url": "https://react.dev/learn",
+    "roleTracks": [
+      "software-engineer"
+    ],
+    "skill": "React",
+    "category": "software-development",
+    "resourceType": "official-documentation",
+    "difficulty": "beginner",
+    "estimatedMinutes": 900,
+    "costType": "free",
+    "handsOn": true,
+    "qualityScore": 96,
+    "description": "Official interactive guide to components, state, events and modern React patterns.",
+    "prerequisites": [
+      "JavaScript",
+      "HTML",
+      "CSS"
+    ],
+    "tags": [
+      "react",
+      "frontend",
+      "official"
+    ],
+    "active": true,
+    "lastVerifiedAt": "2026-10-02"
+  },
+  {
+    "resourceId": "backend-node-learn",
+    "title": "Introduction to Node.js",
+    "provider": "Node.js",
+    "url": "https://nodejs.org/en/learn/getting-started/introduction-to-nodejs",
+    "roleTracks": [
+      "software-engineer"
+    ],
+    "skill": "Node.js",
+    "category": "software-development",
+    "resourceType": "official-documentation",
+    "difficulty": "beginner",
+    "estimatedMinutes": 600,
+    "costType": "free",
+    "handsOn": true,
+    "qualityScore": 94,
+    "description": "Official Node.js learning material covering runtime fundamentals and backend development.",
+    "prerequisites": [
+      "JavaScript"
+    ],
+    "tags": [
+      "nodejs",
+      "backend",
+      "official"
+    ],
+    "active": true,
+    "lastVerifiedAt": "2026-10-02"
+  },
+  {
+    "resourceId": "backend-spring-guides",
+    "title": "Spring Getting Started Guides",
+    "provider": "Spring",
+    "url": "https://spring.io/guides",
+    "roleTracks": [
+      "software-engineer"
+    ],
+    "skill": "Spring Boot",
+    "category": "software-development",
+    "resourceType": "official-documentation",
+    "difficulty": "intermediate",
+    "estimatedMinutes": 900,
+    "costType": "free",
+    "handsOn": true,
+    "qualityScore": 95,
+    "description": "Official task-focused guides for building Java and Spring Boot applications.",
+    "prerequisites": [
+      "Java",
+      "Object-Oriented Programming"
+    ],
+    "tags": [
+      "spring-boot",
+      "java",
+      "backend"
+    ],
+    "active": true,
+    "lastVerifiedAt": "2026-10-02"
+  },
+  {
+    "resourceId": "tool-git-book",
+    "title": "Pro Git Book",
+    "provider": "Git",
+    "url": "https://git-scm.com/book/en/v2",
+    "roleTracks": [
+      "software-engineer",
+      "business-analyst"
+    ],
+    "skill": "Git",
+    "category": "tools",
+    "resourceType": "official-documentation",
+    "difficulty": "beginner",
+    "estimatedMinutes": 600,
+    "costType": "free",
+    "handsOn": true,
+    "qualityScore": 95,
+    "description": "Comprehensive official guide to Git fundamentals, branching and collaboration workflows.",
+    "prerequisites": [],
+    "tags": [
+      "git",
+      "version-control"
+    ],
+    "active": true,
+    "lastVerifiedAt": "2026-10-02"
+  },
+  {
+    "resourceId": "tool-docker-start",
+    "title": "Docker Get Started",
+    "provider": "Docker",
+    "url": "https://docs.docker.com/get-started/",
+    "roleTracks": [
+      "software-engineer"
+    ],
+    "skill": "Docker",
+    "category": "tools-deployment",
+    "resourceType": "official-documentation",
+    "difficulty": "beginner",
+    "estimatedMinutes": 480,
+    "costType": "free",
+    "handsOn": true,
+    "qualityScore": 95,
+    "description": "Official introduction to containers, images, Dockerfiles and multi-container applications.",
+    "prerequisites": [
+      "Command Line",
+      "Basic Application Development"
+    ],
+    "tags": [
+      "docker",
+      "devops"
+    ],
+    "active": true,
+    "lastVerifiedAt": "2026-10-02"
+  },
+  {
+    "resourceId": "db-postgres-tutorial",
+    "title": "PostgreSQL Tutorial",
+    "provider": "PostgreSQL",
+    "url": "https://www.postgresql.org/docs/current/tutorial.html",
+    "roleTracks": [
+      "software-engineer",
+      "business-analyst"
+    ],
+    "skill": "SQL",
+    "category": "databases",
+    "resourceType": "official-documentation",
+    "difficulty": "beginner",
+    "estimatedMinutes": 600,
+    "costType": "free",
+    "handsOn": true,
+    "qualityScore": 94,
+    "description": "Official hands-on introduction to relational databases and SQL using PostgreSQL.",
+    "prerequisites": [],
+    "tags": [
+      "sql",
+      "postgresql",
+      "database"
+    ],
+    "active": true,
+    "lastVerifiedAt": "2026-10-02"
+  },
+  {
+    "resourceId": "db-mongodb-learn",
+    "title": "MongoDB Learning Hub",
+    "provider": "MongoDB",
+    "url": "https://www.mongodb.com/resources/basics",
+    "roleTracks": [
+      "software-engineer"
+    ],
+    "skill": "MongoDB",
+    "category": "databases",
+    "resourceType": "official-documentation",
+    "difficulty": "beginner",
+    "estimatedMinutes": 480,
+    "costType": "free",
+    "handsOn": true,
+    "qualityScore": 91,
+    "description": "Official MongoDB concepts, tutorials and database fundamentals.",
+    "prerequisites": [
+      "Database Fundamentals"
+    ],
+    "tags": [
+      "mongodb",
+      "nosql"
+    ],
+    "active": true,
+    "lastVerifiedAt": "2026-10-02"
+  },
+  {
+    "resourceId": "cs-gfg-dbms",
+    "title": "DBMS Tutorial",
+    "provider": "GeeksforGeeks",
+    "url": "https://www.geeksforgeeks.org/dbms/dbms/",
+    "roleTracks": [
+      "software-engineer"
+    ],
+    "skill": "DBMS",
+    "category": "cs-fundamentals",
+    "resourceType": "documentation",
+    "difficulty": "beginner",
+    "estimatedMinutes": 900,
+    "costType": "free",
+    "handsOn": false,
+    "qualityScore": 88,
+    "description": "Database-management concepts including normalization, transactions, indexing and concurrency.",
+    "prerequisites": [
+      "Database Fundamentals"
+    ],
+    "tags": [
+      "dbms",
+      "gfg",
+      "interview"
+    ],
+    "active": true,
+    "lastVerifiedAt": "2026-10-02"
+  },
+  {
+    "resourceId": "cs-gfg-os",
+    "title": "Operating Systems Tutorial",
+    "provider": "GeeksforGeeks",
+    "url": "https://www.geeksforgeeks.org/operating-systems/operating-systems/",
+    "roleTracks": [
+      "software-engineer"
+    ],
+    "skill": "Operating Systems",
+    "category": "cs-fundamentals",
+    "resourceType": "documentation",
+    "difficulty": "intermediate",
+    "estimatedMinutes": 900,
+    "costType": "free",
+    "handsOn": false,
+    "qualityScore": 88,
+    "description": "Operating-system concepts including processes, threads, scheduling, memory and deadlocks.",
+    "prerequisites": [
+      "Programming Fundamentals"
+    ],
+    "tags": [
+      "os",
+      "gfg",
+      "interview"
+    ],
+    "active": true,
+    "lastVerifiedAt": "2026-10-02"
+  },
+  {
+    "resourceId": "cs-gfg-cn",
+    "title": "Computer Network Tutorial",
+    "provider": "GeeksforGeeks",
+    "url": "https://www.geeksforgeeks.org/computer-networks/computer-network-tutorials/",
+    "roleTracks": [
+      "software-engineer"
+    ],
+    "skill": "Computer Networks",
+    "category": "cs-fundamentals",
+    "resourceType": "documentation",
+    "difficulty": "intermediate",
+    "estimatedMinutes": 900,
+    "costType": "free",
+    "handsOn": false,
+    "qualityScore": 88,
+    "description": "Networking fundamentals including OSI, TCP/IP, HTTP, DNS and routing.",
+    "prerequisites": [],
+    "tags": [
+      "networks",
+      "gfg",
+      "interview"
+    ],
+    "active": true,
+    "lastVerifiedAt": "2026-10-02"
+  },
+  {
+    "resourceId": "cs-mit-algorithms",
+    "title": "Introduction to Algorithms",
+    "provider": "MIT OpenCourseWare",
+    "url": "https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-fall-2011/",
+    "roleTracks": [
+      "software-engineer"
+    ],
+    "skill": "Algorithms",
+    "category": "dsa",
+    "resourceType": "university-course",
+    "difficulty": "intermediate",
+    "estimatedMinutes": 2400,
+    "costType": "free",
+    "handsOn": true,
+    "qualityScore": 97,
+    "description": "University-level algorithms course with lectures, notes, assignments and examinations.",
+    "prerequisites": [
+      "Programming Fundamentals",
+      "Discrete Mathematics"
+    ],
+    "tags": [
+      "mit",
+      "algorithms",
+      "course"
+    ],
+    "active": true,
+    "lastVerifiedAt": "2026-10-02"
+  },
+  {
+    "resourceId": "sd-gfg-tutorial",
+    "title": "System Design Tutorial",
+    "provider": "GeeksforGeeks",
+    "url": "https://www.geeksforgeeks.org/system-design/system-design-tutorial/",
+    "roleTracks": [
+      "software-engineer"
+    ],
+    "skill": "System Design",
+    "category": "system-design",
+    "resourceType": "documentation",
+    "difficulty": "beginner",
+    "estimatedMinutes": 1200,
+    "costType": "free",
+    "handsOn": false,
+    "qualityScore": 90,
+    "description": "System-design concepts covering architecture, scalability, databases, caching and reliability.",
+    "prerequisites": [
+      "DBMS",
+      "Computer Networks",
+      "Backend Development"
+    ],
+    "tags": [
+      "system-design",
+      "gfg"
+    ],
+    "active": true,
+    "lastVerifiedAt": "2026-10-02"
+  },
+  {
+    "resourceId": "sd-primer-github",
+    "title": "System Design Primer",
+    "provider": "donnemartin on GitHub",
+    "url": "https://github.com/donnemartin/system-design-primer",
+    "roleTracks": [
+      "software-engineer"
+    ],
+    "skill": "System Design",
+    "category": "system-design",
+    "resourceType": "open-source-guide",
+    "difficulty": "intermediate",
+    "estimatedMinutes": 1800,
+    "costType": "free",
+    "handsOn": true,
+    "qualityScore": 96,
+    "description": "Open-source system-design guide with concepts, case studies and interview questions.",
+    "prerequisites": [
+      "DBMS",
+      "Computer Networks",
+      "Backend Development"
+    ],
+    "tags": [
+      "system-design",
+      "github",
+      "interview"
+    ],
+    "active": true,
+    "lastVerifiedAt": "2026-10-02"
+  },
+  {
+    "resourceId": "sd-aws-well-architected",
+    "title": "AWS Well-Architected Framework",
+    "provider": "Amazon Web Services",
+    "url": "https://docs.aws.amazon.com/wellarchitected/latest/framework/welcome.html",
+    "roleTracks": [
+      "software-engineer"
+    ],
+    "skill": "Cloud Architecture",
+    "category": "system-design",
+    "resourceType": "official-documentation",
+    "difficulty": "intermediate",
+    "estimatedMinutes": 900,
+    "costType": "free",
+    "handsOn": false,
+    "qualityScore": 96,
+    "description": "Official framework for secure, reliable, efficient and cost-aware cloud architecture.",
+    "prerequisites": [
+      "Cloud Fundamentals",
+      "System Design Basics"
+    ],
+    "tags": [
+      "aws",
+      "architecture",
+      "cloud"
+    ],
+    "active": true,
+    "lastVerifiedAt": "2026-10-02"
+  },
+  {
+    "resourceId": "sd-google-sre-book",
+    "title": "Site Reliability Engineering Book",
+    "provider": "Google",
+    "url": "https://sre.google/sre-book/table-of-contents/",
+    "roleTracks": [
+      "software-engineer"
+    ],
+    "skill": "Reliability",
+    "category": "system-design",
+    "resourceType": "official-book",
+    "difficulty": "advanced",
+    "estimatedMinutes": 1800,
+    "costType": "free",
+    "handsOn": false,
+    "qualityScore": 97,
+    "description": "Google's free book on reliability, monitoring, incident response and large-scale systems.",
+    "prerequisites": [
+      "System Design",
+      "Distributed Systems Basics"
+    ],
+    "tags": [
+      "sre",
+      "reliability",
+      "google"
+    ],
+    "active": true,
+    "lastVerifiedAt": "2026-10-02"
+  },
+  {
+    "resourceId": "sd-roadmap",
+    "title": "System Design Roadmap",
+    "provider": "roadmap.sh",
+    "url": "https://roadmap.sh/system-design",
+    "roleTracks": [
+      "software-engineer"
+    ],
+    "skill": "System Design",
+    "category": "system-design",
+    "resourceType": "roadmap",
+    "difficulty": "intermediate",
+    "estimatedMinutes": 1500,
+    "costType": "free",
+    "handsOn": true,
+    "qualityScore": 91,
+    "description": "Structured roadmap connecting system-design concepts and supporting references.",
+    "prerequisites": [
+      "Backend Development",
+      "DBMS",
+      "Computer Networks"
+    ],
+    "tags": [
+      "system-design",
+      "roadmap"
+    ],
+    "active": true,
+    "lastVerifiedAt": "2026-10-02"
+  },
+  {
+    "resourceId": "ba-powerbi-training",
+    "title": "Power BI Training",
+    "provider": "Microsoft Learn",
+    "url": "https://learn.microsoft.com/en-us/training/powerplatform/power-bi",
+    "roleTracks": [
+      "business-analyst"
+    ],
+    "skill": "Power BI",
+    "category": "data-analytics",
+    "resourceType": "official-learning-path",
+    "difficulty": "beginner",
+    "estimatedMinutes": 1200,
+    "costType": "free",
+    "handsOn": true,
+    "qualityScore": 97,
+    "description": "Official Power BI learning paths covering data preparation, modelling, visualization and reports.",
+    "prerequisites": [
+      "Data Analysis Fundamentals"
+    ],
+    "tags": [
+      "power-bi",
+      "microsoft",
+      "business-intelligence"
+    ],
+    "active": true,
+    "lastVerifiedAt": "2026-10-02"
+  },
+  {
+    "resourceId": "ba-powerbi-pl300",
+    "title": "PL-300 Power BI Data Analyst Course",
+    "provider": "Microsoft Learn",
+    "url": "https://learn.microsoft.com/en-us/training/courses/pl-300t00",
+    "roleTracks": [
+      "business-analyst"
+    ],
+    "skill": "Power BI",
+    "category": "data-analytics",
+    "resourceType": "official-course",
+    "difficulty": "intermediate",
+    "estimatedMinutes": 2400,
+    "costType": "free-content",
+    "handsOn": true,
+    "qualityScore": 97,
+    "description": "Official Power BI Data Analyst course covering preparation, modelling, visualization and deployment.",
+    "prerequisites": [
+      "Power BI Fundamentals",
+      "Data Analysis Fundamentals"
+    ],
+    "tags": [
+      "power-bi",
+      "pl-300",
+      "certification"
+    ],
+    "active": true,
+    "lastVerifiedAt": "2026-10-02"
+  },
+  {
+    "resourceId": "ba-powerbi-scenarios",
+    "title": "Power BI Learning Path Directory",
+    "provider": "Microsoft Learn",
+    "url": "https://learn.microsoft.com/en-us/power-bi/fundamentals/power-bi-learning-path-directory",
+    "roleTracks": [
+      "business-analyst"
+    ],
+    "skill": "Power BI",
+    "category": "data-analytics",
+    "resourceType": "roadmap",
+    "difficulty": "beginner",
+    "estimatedMinutes": 1200,
+    "costType": "free",
+    "handsOn": true,
+    "qualityScore": 96,
+    "description": "Scenario-based Power BI paths for new users, analysts, report creators and advanced users.",
+    "prerequisites": [],
+    "tags": [
+      "power-bi",
+      "roadmap"
+    ],
+    "active": true,
+    "lastVerifiedAt": "2026-10-02"
+  },
+  {
+    "resourceId": "ba-sqlbolt",
+    "title": "SQLBolt Interactive Lessons",
+    "provider": "SQLBolt",
+    "url": "https://sqlbolt.com/",
+    "roleTracks": [
+      "business-analyst",
+      "software-engineer"
+    ],
+    "skill": "SQL",
+    "category": "data-analytics",
+    "resourceType": "interactive-tutorial",
+    "difficulty": "beginner",
+    "estimatedMinutes": 480,
+    "costType": "free",
+    "handsOn": true,
+    "qualityScore": 90,
+    "description": "Browser-based SQL lessons and exercises for relational querying fundamentals.",
+    "prerequisites": [],
+    "tags": [
+      "sql",
+      "interactive"
+    ],
+    "active": true,
+    "lastVerifiedAt": "2026-10-02"
+  },
+  {
+    "resourceId": "ba-hackerrank-sql",
+    "title": "SQL Practice",
+    "provider": "HackerRank",
+    "url": "https://www.hackerrank.com/domains/sql",
+    "roleTracks": [
+      "business-analyst",
+      "software-engineer"
+    ],
+    "skill": "SQL",
+    "category": "data-analytics",
+    "resourceType": "practice-set",
+    "difficulty": "beginner",
+    "estimatedMinutes": 900,
+    "costType": "free",
+    "handsOn": true,
+    "qualityScore": 91,
+    "description": "SQL practice questions organized by query type and difficulty.",
+    "prerequisites": [
+      "SQL Fundamentals"
+    ],
+    "tags": [
+      "sql",
+      "practice"
+    ],
+    "active": true,
+    "lastVerifiedAt": "2026-10-02"
+  },
+  {
+    "resourceId": "ba-excel-help",
+    "title": "Excel Help and Learning",
+    "provider": "Microsoft Support",
+    "url": "https://support.microsoft.com/en-us/excel",
+    "roleTracks": [
+      "business-analyst"
+    ],
+    "skill": "Microsoft Excel",
+    "category": "data-analytics",
+    "resourceType": "official-documentation",
+    "difficulty": "beginner",
+    "estimatedMinutes": 900,
+    "costType": "free",
+    "handsOn": true,
+    "qualityScore": 94,
+    "description": "Official Excel help covering formulas, PivotTables, charts and data analysis features.",
+    "prerequisites": [],
+    "tags": [
+      "excel",
+      "microsoft"
+    ],
+    "active": true,
+    "lastVerifiedAt": "2026-10-02"
+  },
+  {
+    "resourceId": "ba-tableau-training",
+    "title": "Tableau Training",
+    "provider": "Tableau",
+    "url": "https://www.tableau.com/learn/training",
+    "roleTracks": [
+      "business-analyst"
+    ],
+    "skill": "Tableau",
+    "category": "data-analytics",
+    "resourceType": "official-training",
+    "difficulty": "beginner",
+    "estimatedMinutes": 1200,
+    "costType": "freemium",
+    "handsOn": true,
+    "qualityScore": 94,
+    "description": "Official Tableau learning and training resources for visualization and analytics.",
+    "prerequisites": [
+      "Data Analysis Fundamentals"
+    ],
+    "tags": [
+      "tableau",
+      "visualization"
+    ],
+    "active": true,
+    "lastVerifiedAt": "2026-10-02"
+  },
+  {
+    "resourceId": "ba-kaggle-pandas",
+    "title": "Pandas Course",
+    "provider": "Kaggle Learn",
+    "url": "https://www.kaggle.com/learn/pandas",
+    "roleTracks": [
+      "business-analyst",
+      "software-engineer"
+    ],
+    "skill": "Pandas",
+    "category": "data-analytics",
+    "resourceType": "interactive-course",
+    "difficulty": "beginner",
+    "estimatedMinutes": 300,
+    "costType": "free",
+    "handsOn": true,
+    "qualityScore": 91,
+    "description": "Short hands-on course for manipulating and analysing tabular data with pandas.",
+    "prerequisites": [
+      "Python Fundamentals"
+    ],
+    "tags": [
+      "pandas",
+      "python",
+      "kaggle"
+    ],
+    "active": true,
+    "lastVerifiedAt": "2026-10-02"
+  },
+  {
+    "resourceId": "ba-kaggle-viz",
+    "title": "Data Visualization Course",
+    "provider": "Kaggle Learn",
+    "url": "https://www.kaggle.com/learn/data-visualization",
+    "roleTracks": [
+      "business-analyst"
+    ],
+    "skill": "Data Visualization",
+    "category": "data-analytics",
+    "resourceType": "interactive-course",
+    "difficulty": "beginner",
+    "estimatedMinutes": 300,
+    "costType": "free",
+    "handsOn": true,
+    "qualityScore": 90,
+    "description": "Hands-on course covering effective data visualization with Python.",
+    "prerequisites": [
+      "Python Fundamentals",
+      "Pandas Basics"
+    ],
+    "tags": [
+      "visualization",
+      "kaggle",
+      "python"
+    ],
+    "active": true,
+    "lastVerifiedAt": "2026-10-02"
+  },
+  {
+    "resourceId": "ba-atlassian-agile",
+    "title": "The Agile Coach",
+    "provider": "Atlassian",
+    "url": "https://www.atlassian.com/agile",
+    "roleTracks": [
+      "business-analyst",
+      "software-engineer"
+    ],
+    "skill": "Agile",
+    "category": "process-delivery",
+    "resourceType": "documentation",
+    "difficulty": "beginner",
+    "estimatedMinutes": 420,
+    "costType": "free",
+    "handsOn": false,
+    "qualityScore": 92,
+    "description": "Practical guides covering Agile, Scrum, Kanban, planning and team delivery.",
+    "prerequisites": [],
+    "tags": [
+      "agile",
+      "scrum",
+      "atlassian"
+    ],
+    "active": true,
+    "lastVerifiedAt": "2026-10-02"
+  },
+  {
+    "resourceId": "ba-atlassian-user-stories",
+    "title": "User Stories with Examples and a Template",
+    "provider": "Atlassian",
+    "url": "https://www.atlassian.com/agile/project-management/user-stories",
+    "roleTracks": [
+      "business-analyst"
+    ],
+    "skill": "User Stories",
+    "category": "business-analysis",
+    "resourceType": "documentation",
+    "difficulty": "beginner",
+    "estimatedMinutes": 120,
+    "costType": "free",
+    "handsOn": true,
+    "qualityScore": 93,
+    "description": "Practical guide to writing user stories and connecting them with Agile delivery.",
+    "prerequisites": [
+      "Agile Fundamentals",
+      "Requirements Gathering"
+    ],
+    "tags": [
+      "user-stories",
+      "requirements"
+    ],
+    "active": true,
+    "lastVerifiedAt": "2026-10-02"
+  },
+  {
+    "resourceId": "ba-camunda-bpmn",
+    "title": "BPMN Reference",
+    "provider": "Camunda",
+    "url": "https://docs.camunda.io/docs/components/modeler/bpmn/bpmn-coverage/",
+    "roleTracks": [
+      "business-analyst"
+    ],
+    "skill": "BPMN",
+    "category": "business-analysis",
+    "resourceType": "official-documentation",
+    "difficulty": "intermediate",
+    "estimatedMinutes": 360,
+    "costType": "free",
+    "handsOn": true,
+    "qualityScore": 91,
+    "description": "BPMN modelling reference covering common process elements and modelling support.",
+    "prerequisites": [
+      "Business Process Fundamentals"
+    ],
+    "tags": [
+      "bpmn",
+      "process-modelling"
+    ],
+    "active": true,
+    "lastVerifiedAt": "2026-10-02"
+  },
+  {
+    "resourceId": "ba-iiba-standard",
+    "title": "The Business Analysis Standard",
+    "provider": "IIBA",
+    "url": "https://www.iiba.org/career-resources/a-business-analysis-professionals-foundation-for-success/the-business-analysis-standard/",
+    "roleTracks": [
+      "business-analyst"
+    ],
+    "skill": "Business Analysis",
+    "category": "business-analysis",
+    "resourceType": "professional-standard",
+    "difficulty": "beginner",
+    "estimatedMinutes": 360,
+    "costType": "free",
+    "handsOn": false,
+    "qualityScore": 96,
+    "description": "Professional foundation describing business-analysis concepts, outcomes and practices.",
+    "prerequisites": [],
+    "tags": [
+      "iiba",
+      "business-analysis",
+      "standard"
+    ],
+    "active": true,
+    "lastVerifiedAt": "2026-10-02"
+  },
+  {
+    "resourceId": "lc-0001-two-sum",
+    "title": "Two Sum",
+    "provider": "LeetCode",
+    "url": "https://leetcode.com/problems/two-sum/",
+    "roleTracks": [
+      "software-engineer"
+    ],
+    "skill": "Arrays and Hashing",
+    "category": "dsa-question",
+    "resourceType": "practice-problem",
+    "difficulty": "easy",
+    "estimatedMinutes": 25,
+    "costType": "free",
+    "handsOn": true,
+    "qualityScore": 95,
+    "description": "Practice array traversal and hash-map lookup patterns.",
+    "prerequisites": [
+      "Arrays",
+      "Hash Maps"
+    ],
+    "tags": [
+      "leetcode",
+      "arrays",
+      "hashing"
+    ],
+    "active": true,
+    "lastVerifiedAt": "2026-10-02"
+  },
+  {
+    "resourceId": "lc-0121-stock",
+    "title": "Best Time to Buy and Sell Stock",
+    "provider": "LeetCode",
+    "url": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/",
+    "roleTracks": [
+      "software-engineer"
+    ],
+    "skill": "Arrays",
+    "category": "dsa-question",
+    "resourceType": "practice-problem",
+    "difficulty": "easy",
+    "estimatedMinutes": 25,
+    "costType": "free",
+    "handsOn": true,
+    "qualityScore": 94,
+    "description": "Practice one-pass optimization and maintaining a running minimum.",
+    "prerequisites": [
+      "Arrays"
+    ],
+    "tags": [
+      "leetcode",
+      "arrays",
+      "greedy"
+    ],
+    "active": true,
+    "lastVerifiedAt": "2026-10-02"
+  },
+  {
+    "resourceId": "lc-0217-duplicate",
+    "title": "Contains Duplicate",
+    "provider": "LeetCode",
+    "url": "https://leetcode.com/problems/contains-duplicate/",
+    "roleTracks": [
+      "software-engineer"
+    ],
+    "skill": "Arrays and Hashing",
+    "category": "dsa-question",
+    "resourceType": "practice-problem",
+    "difficulty": "easy",
+    "estimatedMinutes": 20,
+    "costType": "free",
+    "handsOn": true,
+    "qualityScore": 91,
+    "description": "Practice set-based duplicate detection.",
+    "prerequisites": [
+      "Arrays",
+      "Sets"
+    ],
+    "tags": [
+      "leetcode",
+      "arrays",
+      "hashing"
+    ],
+    "active": true,
+    "lastVerifiedAt": "2026-10-02"
+  },
+  {
+    "resourceId": "lc-0238-product",
+    "title": "Product of Array Except Self",
+    "provider": "LeetCode",
+    "url": "https://leetcode.com/problems/product-of-array-except-self/",
+    "roleTracks": [
+      "software-engineer"
+    ],
+    "skill": "Prefix and Suffix Products",
+    "category": "dsa-question",
+    "resourceType": "practice-problem",
+    "difficulty": "medium",
+    "estimatedMinutes": 40,
+    "costType": "free",
+    "handsOn": true,
+    "qualityScore": 96,
+    "description": "Practice prefix/suffix accumulation with constant auxiliary-space reasoning.",
+    "prerequisites": [
+      "Arrays",
+      "Prefix Sums"
+    ],
+    "tags": [
+      "leetcode",
+      "arrays",
+      "prefix"
+    ],
+    "active": true,
+    "lastVerifiedAt": "2026-10-02"
+  },
+  {
+    "resourceId": "lc-0053-max-subarray",
+    "title": "Maximum Subarray",
+    "provider": "LeetCode",
+    "url": "https://leetcode.com/problems/maximum-subarray/",
+    "roleTracks": [
+      "software-engineer"
+    ],
+    "skill": "Dynamic Programming",
+    "category": "dsa-question",
+    "resourceType": "practice-problem",
+    "difficulty": "medium",
+    "estimatedMinutes": 35,
+    "costType": "free",
+    "handsOn": true,
+    "qualityScore": 96,
+    "description": "Practice Kadane's algorithm and local-versus-global optimal reasoning.",
+    "prerequisites": [
+      "Arrays",
+      "Dynamic Programming Basics"
+    ],
+    "tags": [
+      "leetcode",
+      "dp",
+      "arrays"
+    ],
+    "active": true,
+    "lastVerifiedAt": "2026-10-02"
+  },
+  {
+    "resourceId": "lc-0242-anagram",
+    "title": "Valid Anagram",
+    "provider": "LeetCode",
+    "url": "https://leetcode.com/problems/valid-anagram/",
+    "roleTracks": [
+      "software-engineer"
+    ],
+    "skill": "Strings and Hashing",
+    "category": "dsa-question",
+    "resourceType": "practice-problem",
+    "difficulty": "easy",
+    "estimatedMinutes": 20,
+    "costType": "free",
+    "handsOn": true,
+    "qualityScore": 92,
+    "description": "Practice frequency counting for string comparison.",
+    "prerequisites": [
+      "Strings",
+      "Hash Maps"
+    ],
+    "tags": [
+      "leetcode",
+      "strings",
+      "hashing"
+    ],
+    "active": true,
+    "lastVerifiedAt": "2026-10-02"
+  },
+  {
+    "resourceId": "lc-0049-group-anagrams",
+    "title": "Group Anagrams",
+    "provider": "LeetCode",
+    "url": "https://leetcode.com/problems/group-anagrams/",
+    "roleTracks": [
+      "software-engineer"
+    ],
+    "skill": "Strings and Hashing",
+    "category": "dsa-question",
+    "resourceType": "practice-problem",
+    "difficulty": "medium",
+    "estimatedMinutes": 35,
+    "costType": "free",
+    "handsOn": true,
+    "qualityScore": 95,
+    "description": "Practice canonical representations and grouping with hash maps.",
+    "prerequisites": [
+      "Strings",
+      "Hash Maps"
+    ],
+    "tags": [
+      "leetcode",
+      "strings",
+      "hashing"
+    ],
+    "active": true,
+    "lastVerifiedAt": "2026-10-02"
+  },
+  {
+    "resourceId": "lc-0128-consecutive",
+    "title": "Longest Consecutive Sequence",
+    "provider": "LeetCode",
+    "url": "https://leetcode.com/problems/longest-consecutive-sequence/",
+    "roleTracks": [
+      "software-engineer"
+    ],
+    "skill": "Hashing",
+    "category": "dsa-question",
+    "resourceType": "practice-problem",
+    "difficulty": "medium",
+    "estimatedMinutes": 40,
+    "costType": "free",
+    "handsOn": true,
+    "qualityScore": 95,
+    "description": "Practice set-based sequence discovery in linear expected time.",
+    "prerequisites": [
+      "Arrays",
+      "Sets"
+    ],
+    "tags": [
+      "leetcode",
+      "hashing"
+    ],
+    "active": true,
+    "lastVerifiedAt": "2026-10-02"
+  },
+  {
+    "resourceId": "lc-0125-palindrome",
+    "title": "Valid Palindrome",
+    "provider": "LeetCode",
+    "url": "https://leetcode.com/problems/valid-palindrome/",
+    "roleTracks": [
+      "software-engineer"
+    ],
+    "skill": "Two Pointers",
+    "category": "dsa-question",
+    "resourceType": "practice-problem",
+    "difficulty": "easy",
+    "estimatedMinutes": 20,
+    "costType": "free",
+    "handsOn": true,
+    "qualityScore": 92,
+    "description": "Practice character filtering and two-pointer traversal.",
+    "prerequisites": [
+      "Strings"
+    ],
+    "tags": [
+      "leetcode",
+      "two-pointers"
+    ],
+    "active": true,
+    "lastVerifiedAt": "2026-10-02"
+  },
+  {
+    "resourceId": "lc-0015-three-sum",
+    "title": "3Sum",
+    "provider": "LeetCode",
+    "url": "https://leetcode.com/problems/3sum/",
+    "roleTracks": [
+      "software-engineer"
+    ],
+    "skill": "Two Pointers",
+    "category": "dsa-question",
+    "resourceType": "practice-problem",
+    "difficulty": "medium",
+    "estimatedMinutes": 45,
+    "costType": "free",
+    "handsOn": true,
+    "qualityScore": 96,
+    "description": "Practice sorting, duplicate handling and two-pointer search.",
+    "prerequisites": [
+      "Arrays",
+      "Sorting",
+      "Two Pointers"
+    ],
+    "tags": [
+      "leetcode",
+      "two-pointers"
+    ],
+    "active": true,
+    "lastVerifiedAt": "2026-10-02"
+  },
+  {
+    "resourceId": "lc-0011-container",
+    "title": "Container With Most Water",
+    "provider": "LeetCode",
+    "url": "https://leetcode.com/problems/container-with-most-water/",
+    "roleTracks": [
+      "software-engineer"
+    ],
+    "skill": "Two Pointers",
+    "category": "dsa-question",
+    "resourceType": "practice-problem",
+    "difficulty": "medium",
+    "estimatedMinutes": 35,
+    "costType": "free",
+    "handsOn": true,
+    "qualityScore": 95,
+    "description": "Practice greedy pointer movement and area optimization.",
+    "prerequisites": [
+      "Arrays",
+      "Two Pointers"
+    ],
+    "tags": [
+      "leetcode",
+      "two-pointers",
+      "greedy"
+    ],
+    "active": true,
+    "lastVerifiedAt": "2026-10-02"
+  },
+  {
+    "resourceId": "lc-0003-longest-substring",
+    "title": "Longest Substring Without Repeating Characters",
+    "provider": "LeetCode",
+    "url": "https://leetcode.com/problems/longest-substring-without-repeating-characters/",
+    "roleTracks": [
+      "software-engineer"
+    ],
+    "skill": "Sliding Window",
+    "category": "dsa-question",
+    "resourceType": "practice-problem",
+    "difficulty": "medium",
+    "estimatedMinutes": 40,
+    "costType": "free",
+    "handsOn": true,
+    "qualityScore": 97,
+    "description": "Practice variable-length sliding windows and character tracking.",
+    "prerequisites": [
+      "Strings",
+      "Hash Maps",
+      "Two Pointers"
+    ],
+    "tags": [
+      "leetcode",
+      "sliding-window"
+    ],
+    "active": true,
+    "lastVerifiedAt": "2026-10-02"
+  },
+  {
+    "resourceId": "lc-0424-character-replacement",
+    "title": "Longest Repeating Character Replacement",
+    "provider": "LeetCode",
+    "url": "https://leetcode.com/problems/longest-repeating-character-replacement/",
+    "roleTracks": [
+      "software-engineer"
+    ],
+    "skill": "Sliding Window",
+    "category": "dsa-question",
+    "resourceType": "practice-problem",
+    "difficulty": "medium",
+    "estimatedMinutes": 45,
+    "costType": "free",
+    "handsOn": true,
+    "qualityScore": 95,
+    "description": "Practice maintaining a valid sliding window with frequency counts.",
+    "prerequisites": [
+      "Sliding Window",
+      "Hash Maps"
+    ],
+    "tags": [
+      "leetcode",
+      "sliding-window"
+    ],
+    "active": true,
+    "lastVerifiedAt": "2026-10-02"
+  },
+  {
+    "resourceId": "lc-0076-min-window",
+    "title": "Minimum Window Substring",
+    "provider": "LeetCode",
+    "url": "https://leetcode.com/problems/minimum-window-substring/",
+    "roleTracks": [
+      "software-engineer"
+    ],
+    "skill": "Sliding Window",
+    "category": "dsa-question",
+    "resourceType": "practice-problem",
+    "difficulty": "hard",
+    "estimatedMinutes": 60,
+    "costType": "free",
+    "handsOn": true,
+    "qualityScore": 97,
+    "description": "Advanced variable-window practice with multiple frequency constraints.",
+    "prerequisites": [
+      "Sliding Window",
+      "Hash Maps",
+      "Strings"
+    ],
+    "tags": [
+      "leetcode",
+      "sliding-window",
+      "hard"
+    ],
+    "active": true,
+    "lastVerifiedAt": "2026-10-02"
+  },
+  {
+    "resourceId": "lc-0020-parentheses",
+    "title": "Valid Parentheses",
+    "provider": "LeetCode",
+    "url": "https://leetcode.com/problems/valid-parentheses/",
+    "roleTracks": [
+      "software-engineer"
+    ],
+    "skill": "Stacks",
+    "category": "dsa-question",
+    "resourceType": "practice-problem",
+    "difficulty": "easy",
+    "estimatedMinutes": 20,
+    "costType": "free",
+    "handsOn": true,
+    "qualityScore": 95,
+    "description": "Practice stack-based delimiter matching.",
+    "prerequisites": [
+      "Stacks",
+      "Strings"
+    ],
+    "tags": [
+      "leetcode",
+      "stack"
+    ],
+    "active": true,
+    "lastVerifiedAt": "2026-10-02"
+  },
+  {
+    "resourceId": "lc-0155-min-stack",
+    "title": "Min Stack",
+    "provider": "LeetCode",
+    "url": "https://leetcode.com/problems/min-stack/",
+    "roleTracks": [
+      "software-engineer"
+    ],
+    "skill": "Stacks",
+    "category": "dsa-question",
+    "resourceType": "practice-problem",
+    "difficulty": "medium",
+    "estimatedMinutes": 35,
+    "costType": "free",
+    "handsOn": true,
+    "qualityScore": 94,
+    "description": "Design a stack supporting constant-time minimum retrieval.",
+    "prerequisites": [
+      "Stacks",
+      "Object-Oriented Programming"
+    ],
+    "tags": [
+      "leetcode",
+      "stack",
+      "design"
+    ],
+    "active": true,
+    "lastVerifiedAt": "2026-10-02"
+  },
+  {
+    "resourceId": "lc-0739-daily-temperatures",
+    "title": "Daily Temperatures",
+    "provider": "LeetCode",
+    "url": "https://leetcode.com/problems/daily-temperatures/",
+    "roleTracks": [
+      "software-engineer"
+    ],
+    "skill": "Monotonic Stack",
+    "category": "dsa-question",
+    "resourceType": "practice-problem",
+    "difficulty": "medium",
+    "estimatedMinutes": 40,
+    "costType": "free",
+    "handsOn": true,
+    "qualityScore": 95,
+    "description": "Practice the monotonic-stack pattern for next-greater-element queries.",
+    "prerequisites": [
+      "Stacks",
+      "Arrays"
+    ],
+    "tags": [
+      "leetcode",
+      "monotonic-stack"
+    ],
+    "active": true,
+    "lastVerifiedAt": "2026-10-02"
+  },
+  {
+    "resourceId": "lc-0704-binary-search",
+    "title": "Binary Search",
+    "provider": "LeetCode",
+    "url": "https://leetcode.com/problems/binary-search/",
+    "roleTracks": [
+      "software-engineer"
+    ],
+    "skill": "Binary Search",
+    "category": "dsa-question",
+    "resourceType": "practice-problem",
+    "difficulty": "easy",
+    "estimatedMinutes": 20,
+    "costType": "free",
+    "handsOn": true,
+    "qualityScore": 94,
+    "description": "Implement standard binary search with correct boundaries.",
+    "prerequisites": [
+      "Arrays",
+      "Time Complexity"
+    ],
+    "tags": [
+      "leetcode",
+      "binary-search"
+    ],
+    "active": true,
+    "lastVerifiedAt": "2026-10-02"
+  },
+  {
+    "resourceId": "lc-0033-rotated-search",
+    "title": "Search in Rotated Sorted Array",
+    "provider": "LeetCode",
+    "url": "https://leetcode.com/problems/search-in-rotated-sorted-array/",
+    "roleTracks": [
+      "software-engineer"
+    ],
+    "skill": "Binary Search",
+    "category": "dsa-question",
+    "resourceType": "practice-problem",
+    "difficulty": "medium",
+    "estimatedMinutes": 45,
+    "costType": "free",
+    "handsOn": true,
+    "qualityScore": 97,
+    "description": "Practice binary search when one partition is known to be sorted.",
+    "prerequisites": [
+      "Binary Search",
+      "Arrays"
+    ],
+    "tags": [
+      "leetcode",
+      "binary-search"
+    ],
+    "active": true,
+    "lastVerifiedAt": "2026-10-02"
+  },
+  {
+    "resourceId": "lc-0875-koko",
+    "title": "Koko Eating Bananas",
+    "provider": "LeetCode",
+    "url": "https://leetcode.com/problems/koko-eating-bananas/",
+    "roleTracks": [
+      "software-engineer"
+    ],
+    "skill": "Binary Search on Answer",
+    "category": "dsa-question",
+    "resourceType": "practice-problem",
+    "difficulty": "medium",
+    "estimatedMinutes": 45,
+    "costType": "free",
+    "handsOn": true,
+    "qualityScore": 96,
+    "description": "Practice binary searching a feasible answer space.",
+    "prerequisites": [
+      "Binary Search",
+      "Ceiling Division"
+    ],
+    "tags": [
+      "leetcode",
+      "binary-search-on-answer"
+    ],
+    "active": true,
+    "lastVerifiedAt": "2026-10-02"
+  },
+  {
+    "resourceId": "lc-0206-reverse-list",
+    "title": "Reverse Linked List",
+    "provider": "LeetCode",
+    "url": "https://leetcode.com/problems/reverse-linked-list/",
+    "roleTracks": [
+      "software-engineer"
+    ],
+    "skill": "Linked Lists",
+    "category": "dsa-question",
+    "resourceType": "practice-problem",
+    "difficulty": "easy",
+    "estimatedMinutes": 25,
+    "costType": "free",
+    "handsOn": true,
+    "qualityScore": 96,
+    "description": "Practice iterative and recursive pointer reversal.",
+    "prerequisites": [
+      "Linked Lists"
+    ],
+    "tags": [
+      "leetcode",
+      "linked-list"
+    ],
+    "active": true,
+    "lastVerifiedAt": "2026-10-02"
+  },
+  {
+    "resourceId": "lc-0021-merge-lists",
+    "title": "Merge Two Sorted Lists",
+    "provider": "LeetCode",
+    "url": "https://leetcode.com/problems/merge-two-sorted-lists/",
+    "roleTracks": [
+      "software-engineer"
+    ],
+    "skill": "Linked Lists",
+    "category": "dsa-question",
+    "resourceType": "practice-problem",
+    "difficulty": "easy",
+    "estimatedMinutes": 25,
+    "costType": "free",
+    "handsOn": true,
+    "qualityScore": 95,
+    "description": "Practice pointer manipulation and sorted merging.",
+    "prerequisites": [
+      "Linked Lists"
+    ],
+    "tags": [
+      "leetcode",
+      "linked-list"
+    ],
+    "active": true,
+    "lastVerifiedAt": "2026-10-02"
+  },
+  {
+    "resourceId": "lc-0141-cycle",
+    "title": "Linked List Cycle",
+    "provider": "LeetCode",
+    "url": "https://leetcode.com/problems/linked-list-cycle/",
+    "roleTracks": [
+      "software-engineer"
+    ],
+    "skill": "Linked Lists",
+    "category": "dsa-question",
+    "resourceType": "practice-problem",
+    "difficulty": "easy",
+    "estimatedMinutes": 25,
+    "costType": "free",
+    "handsOn": true,
+    "qualityScore": 95,
+    "description": "Practice Floyd's slow-and-fast pointer cycle detection.",
+    "prerequisites": [
+      "Linked Lists",
+      "Two Pointers"
+    ],
+    "tags": [
+      "leetcode",
+      "linked-list",
+      "two-pointers"
+    ],
+    "active": true,
+    "lastVerifiedAt": "2026-10-02"
+  },
+  {
+    "resourceId": "lc-0143-reorder-list",
+    "title": "Reorder List",
+    "provider": "LeetCode",
+    "url": "https://leetcode.com/problems/reorder-list/",
+    "roleTracks": [
+      "software-engineer"
+    ],
+    "skill": "Linked Lists",
+    "category": "dsa-question",
+    "resourceType": "practice-problem",
+    "difficulty": "medium",
+    "estimatedMinutes": 45,
+    "costType": "free",
+    "handsOn": true,
+    "qualityScore": 95,
+    "description": "Combine midpoint detection, list reversal and alternating merge patterns.",
+    "prerequisites": [
+      "Linked Lists",
+      "Two Pointers"
+    ],
+    "tags": [
+      "leetcode",
+      "linked-list"
+    ],
+    "active": true,
+    "lastVerifiedAt": "2026-10-02"
+  },
+  {
+    "resourceId": "lc-0226-invert-tree",
+    "title": "Invert Binary Tree",
+    "provider": "LeetCode",
+    "url": "https://leetcode.com/problems/invert-binary-tree/",
+    "roleTracks": [
+      "software-engineer"
+    ],
+    "skill": "Trees",
+    "category": "dsa-question",
+    "resourceType": "practice-problem",
+    "difficulty": "easy",
+    "estimatedMinutes": 25,
+    "costType": "free",
+    "handsOn": true,
+    "qualityScore": 95,
+    "description": "Practice recursive and iterative binary-tree traversal.",
+    "prerequisites": [
+      "Binary Trees",
+      "Recursion"
+    ],
+    "tags": [
+      "leetcode",
+      "trees"
+    ],
+    "active": true,
+    "lastVerifiedAt": "2026-10-02"
+  },
+  {
+    "resourceId": "lc-0104-tree-depth",
+    "title": "Maximum Depth of Binary Tree",
+    "provider": "LeetCode",
+    "url": "https://leetcode.com/problems/maximum-depth-of-binary-tree/",
+    "roleTracks": [
+      "software-engineer"
+    ],
+    "skill": "Trees",
+    "category": "dsa-question",
+    "resourceType": "practice-problem",
+    "difficulty": "easy",
+    "estimatedMinutes": 20,
+    "costType": "free",
+    "handsOn": true,
+    "qualityScore": 94,
+    "description": "Practice DFS recursion and BFS level traversal.",
+    "prerequisites": [
+      "Binary Trees",
+      "DFS",
+      "BFS"
+    ],
+    "tags": [
+      "leetcode",
+      "trees"
+    ],
+    "active": true,
+    "lastVerifiedAt": "2026-10-02"
+  },
+  {
+    "resourceId": "lc-0100-same-tree",
+    "title": "Same Tree",
+    "provider": "LeetCode",
+    "url": "https://leetcode.com/problems/same-tree/",
+    "roleTracks": [
+      "software-engineer"
+    ],
+    "skill": "Trees",
+    "category": "dsa-question",
+    "resourceType": "practice-problem",
+    "difficulty": "easy",
+    "estimatedMinutes": 20,
+    "costType": "free",
+    "handsOn": true,
+    "qualityScore": 92,
+    "description": "Practice synchronized recursive tree comparison.",
+    "prerequisites": [
+      "Binary Trees",
+      "Recursion"
+    ],
+    "tags": [
+      "leetcode",
+      "trees"
+    ],
+    "active": true,
+    "lastVerifiedAt": "2026-10-02"
+  },
+  {
+    "resourceId": "lc-0235-lca-bst",
+    "title": "Lowest Common Ancestor of a Binary Search Tree",
+    "provider": "LeetCode",
+    "url": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/",
+    "roleTracks": [
+      "software-engineer"
+    ],
+    "skill": "Binary Search Trees",
+    "category": "dsa-question",
+    "resourceType": "practice-problem",
+    "difficulty": "medium",
+    "estimatedMinutes": 35,
+    "costType": "free",
+    "handsOn": true,
+    "qualityScore": 95,
+    "description": "Use BST ordering to locate a lowest common ancestor.",
+    "prerequisites": [
+      "Binary Search Trees"
+    ],
+    "tags": [
+      "leetcode",
+      "bst",
+      "lca"
+    ],
+    "active": true,
+    "lastVerifiedAt": "2026-10-02"
+  },
+  {
+    "resourceId": "lc-0102-level-order",
+    "title": "Binary Tree Level Order Traversal",
+    "provider": "LeetCode",
+    "url": "https://leetcode.com/problems/binary-tree-level-order-traversal/",
+    "roleTracks": [
+      "software-engineer"
+    ],
+    "skill": "Trees and BFS",
+    "category": "dsa-question",
+    "resourceType": "practice-problem",
+    "difficulty": "medium",
+    "estimatedMinutes": 35,
+    "costType": "free",
+    "handsOn": true,
+    "qualityScore": 96,
+    "description": "Practice breadth-first traversal with a queue.",
+    "prerequisites": [
+      "Binary Trees",
+      "Queues",
+      "BFS"
+    ],
+    "tags": [
+      "leetcode",
+      "trees",
+      "bfs"
+    ],
+    "active": true,
+    "lastVerifiedAt": "2026-10-02"
+  },
+  {
+    "resourceId": "lc-0200-islands",
+    "title": "Number of Islands",
+    "provider": "LeetCode",
+    "url": "https://leetcode.com/problems/number-of-islands/",
+    "roleTracks": [
+      "software-engineer"
+    ],
+    "skill": "Graphs",
+    "category": "dsa-question",
+    "resourceType": "practice-problem",
+    "difficulty": "medium",
+    "estimatedMinutes": 40,
+    "costType": "free",
+    "handsOn": true,
+    "qualityScore": 97,
+    "description": "Practice grid traversal using DFS, BFS or union-find.",
+    "prerequisites": [
+      "DFS",
+      "BFS",
+      "Matrices"
+    ],
+    "tags": [
+      "leetcode",
+      "graphs",
+      "grid"
+    ],
+    "active": true,
+    "lastVerifiedAt": "2026-10-02"
+  },
+  {
+    "resourceId": "lc-0133-clone-graph",
+    "title": "Clone Graph",
+    "provider": "LeetCode",
+    "url": "https://leetcode.com/problems/clone-graph/",
+    "roleTracks": [
+      "software-engineer"
+    ],
+    "skill": "Graphs",
+    "category": "dsa-question",
+    "resourceType": "practice-problem",
+    "difficulty": "medium",
+    "estimatedMinutes": 40,
+    "costType": "free",
+    "handsOn": true,
+    "qualityScore": 95,
+    "description": "Practice graph traversal and old-to-new node mapping.",
+    "prerequisites": [
+      "Graphs",
+      "DFS",
+      "Hash Maps"
+    ],
+    "tags": [
+      "leetcode",
+      "graphs"
+    ],
+    "active": true,
+    "lastVerifiedAt": "2026-10-02"
+  },
+  {
+    "resourceId": "lc-0207-course-schedule",
+    "title": "Course Schedule",
+    "provider": "LeetCode",
+    "url": "https://leetcode.com/problems/course-schedule/",
+    "roleTracks": [
+      "software-engineer"
+    ],
+    "skill": "Topological Sorting",
+    "category": "dsa-question",
+    "resourceType": "practice-problem",
+    "difficulty": "medium",
+    "estimatedMinutes": 45,
+    "costType": "free",
+    "handsOn": true,
+    "qualityScore": 97,
+    "description": "Practice directed-cycle detection and topological ordering.",
+    "prerequisites": [
+      "Graphs",
+      "DFS",
+      "BFS"
+    ],
+    "tags": [
+      "leetcode",
+      "graphs",
+      "topological-sort"
+    ],
+    "active": true,
+    "lastVerifiedAt": "2026-10-02"
+  },
+  {
+    "resourceId": "lc-0417-pacific-atlantic",
+    "title": "Pacific Atlantic Water Flow",
+    "provider": "LeetCode",
+    "url": "https://leetcode.com/problems/pacific-atlantic-water-flow/",
+    "roleTracks": [
+      "software-engineer"
+    ],
+    "skill": "Graphs",
+    "category": "dsa-question",
+    "resourceType": "practice-problem",
+    "difficulty": "medium",
+    "estimatedMinutes": 50,
+    "costType": "free",
+    "handsOn": true,
+    "qualityScore": 95,
+    "description": "Practice reverse graph thinking and multi-source grid traversal.",
+    "prerequisites": [
+      "Graphs",
+      "DFS",
+      "Matrices"
+    ],
+    "tags": [
+      "leetcode",
+      "graphs",
+      "grid"
+    ],
+    "active": true,
+    "lastVerifiedAt": "2026-10-02"
+  },
+  {
+    "resourceId": "lc-0070-climbing-stairs",
+    "title": "Climbing Stairs",
+    "provider": "LeetCode",
+    "url": "https://leetcode.com/problems/climbing-stairs/",
+    "roleTracks": [
+      "software-engineer"
+    ],
+    "skill": "Dynamic Programming",
+    "category": "dsa-question",
+    "resourceType": "practice-problem",
+    "difficulty": "easy",
+    "estimatedMinutes": 25,
+    "costType": "free",
+    "handsOn": true,
+    "qualityScore": 94,
+    "description": "Introduce recurrence relations, memoization and space optimization.",
+    "prerequisites": [
+      "Recursion"
+    ],
+    "tags": [
+      "leetcode",
+      "dp"
+    ],
+    "active": true,
+    "lastVerifiedAt": "2026-10-02"
+  },
+  {
+    "resourceId": "lc-0198-house-robber",
+    "title": "House Robber",
+    "provider": "LeetCode",
+    "url": "https://leetcode.com/problems/house-robber/",
+    "roleTracks": [
+      "software-engineer"
+    ],
+    "skill": "Dynamic Programming",
+    "category": "dsa-question",
+    "resourceType": "practice-problem",
+    "difficulty": "medium",
+    "estimatedMinutes": 35,
+    "costType": "free",
+    "handsOn": true,
+    "qualityScore": 96,
+    "description": "Practice one-dimensional DP with include/exclude decisions.",
+    "prerequisites": [
+      "Dynamic Programming Basics",
+      "Arrays"
+    ],
+    "tags": [
+      "leetcode",
+      "dp"
+    ],
+    "active": true,
+    "lastVerifiedAt": "2026-10-02"
+  },
+  {
+    "resourceId": "lc-0322-coin-change",
+    "title": "Coin Change",
+    "provider": "LeetCode",
+    "url": "https://leetcode.com/problems/coin-change/",
+    "roleTracks": [
+      "software-engineer"
+    ],
+    "skill": "Dynamic Programming",
+    "category": "dsa-question",
+    "resourceType": "practice-problem",
+    "difficulty": "medium",
+    "estimatedMinutes": 45,
+    "costType": "free",
+    "handsOn": true,
+    "qualityScore": 97,
+    "description": "Practice unbounded-choice dynamic programming and unreachable-state handling.",
+    "prerequisites": [
+      "Dynamic Programming Basics"
+    ],
+    "tags": [
+      "leetcode",
+      "dp",
+      "knapsack"
+    ],
+    "active": true,
+    "lastVerifiedAt": "2026-10-02"
+  },
+  {
+    "resourceId": "lc-0114-lcs",
+    "title": "Longest Common Subsequence",
+    "provider": "LeetCode",
+    "url": "https://leetcode.com/problems/longest-common-subsequence/",
+    "roleTracks": [
+      "software-engineer"
+    ],
+    "skill": "Dynamic Programming",
+    "category": "dsa-question",
+    "resourceType": "practice-problem",
+    "difficulty": "medium",
+    "estimatedMinutes": 50,
+    "costType": "free",
+    "handsOn": true,
+    "qualityScore": 97,
+    "description": "Practice two-dimensional DP over pairs of string prefixes.",
+    "prerequisites": [
+      "Dynamic Programming Basics",
+      "Strings"
+    ],
+    "tags": [
+      "leetcode",
+      "dp",
+      "lcs"
+    ],
+    "active": true,
+    "lastVerifiedAt": "2026-10-02"
+  },
+  {
+    "resourceId": "lc-0139-word-break",
+    "title": "Word Break",
+    "provider": "LeetCode",
+    "url": "https://leetcode.com/problems/word-break/",
+    "roleTracks": [
+      "software-engineer"
+    ],
+    "skill": "Dynamic Programming",
+    "category": "dsa-question",
+    "resourceType": "practice-problem",
+    "difficulty": "medium",
+    "estimatedMinutes": 45,
+    "costType": "free",
+    "handsOn": true,
+    "qualityScore": 96,
+    "description": "Practice prefix-state DP and dictionary lookup.",
+    "prerequisites": [
+      "Dynamic Programming Basics",
+      "Strings",
+      "Sets"
+    ],
+    "tags": [
+      "leetcode",
+      "dp",
+      "strings"
+    ],
+    "active": true,
+    "lastVerifiedAt": "2026-10-02"
+  },
+  {
+    "resourceId": "lc-0215-kth-largest",
+    "title": "Kth Largest Element in an Array",
+    "provider": "LeetCode",
+    "url": "https://leetcode.com/problems/kth-largest-element-in-an-array/",
+    "roleTracks": [
+      "software-engineer"
+    ],
+    "skill": "Heaps and Quickselect",
+    "category": "dsa-question",
+    "resourceType": "practice-problem",
+    "difficulty": "medium",
+    "estimatedMinutes": 40,
+    "costType": "free",
+    "handsOn": true,
+    "qualityScore": 95,
+    "description": "Practice heap selection or quickselect partitioning.",
+    "prerequisites": [
+      "Heaps",
+      "Sorting"
+    ],
+    "tags": [
+      "leetcode",
+      "heap",
+      "quickselect"
+    ],
+    "active": true,
+    "lastVerifiedAt": "2026-10-02"
+  },
+  {
+    "resourceId": "lc-0347-top-k",
+    "title": "Top K Frequent Elements",
+    "provider": "LeetCode",
+    "url": "https://leetcode.com/problems/top-k-frequent-elements/",
+    "roleTracks": [
+      "software-engineer"
+    ],
+    "skill": "Heaps and Bucket Sort",
+    "category": "dsa-question",
+    "resourceType": "practice-problem",
+    "difficulty": "medium",
+    "estimatedMinutes": 40,
+    "costType": "free",
+    "handsOn": true,
+    "qualityScore": 96,
+    "description": "Combine frequency counting with heap or bucket-based selection.",
+    "prerequisites": [
+      "Hash Maps",
+      "Heaps"
+    ],
+    "tags": [
+      "leetcode",
+      "heap",
+      "hashing"
+    ],
+    "active": true,
+    "lastVerifiedAt": "2026-10-02"
+  },
+  {
+    "resourceId": "lc-0078-subsets",
+    "title": "Subsets",
+    "provider": "LeetCode",
+    "url": "https://leetcode.com/problems/subsets/",
+    "roleTracks": [
+      "software-engineer"
+    ],
+    "skill": "Backtracking",
+    "category": "dsa-question",
+    "resourceType": "practice-problem",
+    "difficulty": "medium",
+    "estimatedMinutes": 35,
+    "costType": "free",
+    "handsOn": true,
+    "qualityScore": 96,
+    "description": "Practice decision-tree backtracking and subset construction.",
+    "prerequisites": [
+      "Recursion",
+      "Arrays"
+    ],
+    "tags": [
+      "leetcode",
+      "backtracking"
+    ],
+    "active": true,
+    "lastVerifiedAt": "2026-10-02"
+  },
+  {
+    "resourceId": "lc-0039-combination-sum",
+    "title": "Combination Sum",
+    "provider": "LeetCode",
+    "url": "https://leetcode.com/problems/combination-sum/",
+    "roleTracks": [
+      "software-engineer"
+    ],
+    "skill": "Backtracking",
+    "category": "dsa-question",
+    "resourceType": "practice-problem",
+    "difficulty": "medium",
+    "estimatedMinutes": 45,
+    "costType": "free",
+    "handsOn": true,
+    "qualityScore": 96,
+    "description": "Practice reusable choices, pruning and backtracking state.",
+    "prerequisites": [
+      "Recursion",
+      "Backtracking Basics"
+    ],
+    "tags": [
+      "leetcode",
+      "backtracking"
+    ],
+    "active": true,
+    "lastVerifiedAt": "2026-10-02"
+  },
+  {
+    "resourceId": "lc-0046-permutations",
+    "title": "Permutations",
+    "provider": "LeetCode",
+    "url": "https://leetcode.com/problems/permutations/",
+    "roleTracks": [
+      "software-engineer"
+    ],
+    "skill": "Backtracking",
+    "category": "dsa-question",
+    "resourceType": "practice-problem",
+    "difficulty": "medium",
+    "estimatedMinutes": 40,
+    "costType": "free",
+    "handsOn": true,
+    "qualityScore": 95,
+    "description": "Practice tracking used choices while constructing permutations.",
+    "prerequisites": [
+      "Recursion",
+      "Backtracking Basics"
+    ],
+    "tags": [
+      "leetcode",
+      "backtracking"
+    ],
+    "active": true,
+    "lastVerifiedAt": "2026-10-02"
+  },
+  {
+    "resourceId": "lc-0079-word-search",
+    "title": "Word Search",
+    "provider": "LeetCode",
+    "url": "https://leetcode.com/problems/word-search/",
+    "roleTracks": [
+      "software-engineer"
+    ],
+    "skill": "Backtracking",
+    "category": "dsa-question",
+    "resourceType": "practice-problem",
+    "difficulty": "medium",
+    "estimatedMinutes": 50,
+    "costType": "free",
+    "handsOn": true,
+    "qualityScore": 96,
+    "description": "Practice grid traversal, state marking and backtracking cleanup.",
+    "prerequisites": [
+      "Backtracking",
+      "DFS",
+      "Matrices"
+    ],
+    "tags": [
+      "leetcode",
+      "backtracking",
+      "grid"
+    ],
+    "active": true,
+    "lastVerifiedAt": "2026-10-02"
+  },
+  {
+    "resourceId": "lc-0056-merge-intervals",
+    "title": "Merge Intervals",
+    "provider": "LeetCode",
+    "url": "https://leetcode.com/problems/merge-intervals/",
+    "roleTracks": [
+      "software-engineer"
+    ],
+    "skill": "Intervals",
+    "category": "dsa-question",
+    "resourceType": "practice-problem",
+    "difficulty": "medium",
+    "estimatedMinutes": 35,
+    "costType": "free",
+    "handsOn": true,
+    "qualityScore": 97,
+    "description": "Practice sorting and combining overlapping intervals.",
+    "prerequisites": [
+      "Sorting",
+      "Arrays"
+    ],
+    "tags": [
+      "leetcode",
+      "intervals"
+    ],
+    "active": true,
+    "lastVerifiedAt": "2026-10-02"
+  },
+  {
+    "resourceId": "lc-0057-insert-interval",
+    "title": "Insert Interval",
+    "provider": "LeetCode",
+    "url": "https://leetcode.com/problems/insert-interval/",
+    "roleTracks": [
+      "software-engineer"
+    ],
+    "skill": "Intervals",
+    "category": "dsa-question",
+    "resourceType": "practice-problem",
+    "difficulty": "medium",
+    "estimatedMinutes": 40,
+    "costType": "free",
+    "handsOn": true,
+    "qualityScore": 95,
+    "description": "Practice interval partitioning and merging around a new range.",
+    "prerequisites": [
+      "Intervals",
+      "Arrays"
+    ],
+    "tags": [
+      "leetcode",
+      "intervals"
+    ],
+    "active": true,
+    "lastVerifiedAt": "2026-10-02"
+  },
+  {
+    "resourceId": "lc-0055-jump-game",
+    "title": "Jump Game",
+    "provider": "LeetCode",
+    "url": "https://leetcode.com/problems/jump-game/",
+    "roleTracks": [
+      "software-engineer"
+    ],
+    "skill": "Greedy Algorithms",
+    "category": "dsa-question",
+    "resourceType": "practice-problem",
+    "difficulty": "medium",
+    "estimatedMinutes": 35,
+    "costType": "free",
+    "handsOn": true,
+    "qualityScore": 96,
+    "description": "Practice greedy reachability and maintaining a farthest reachable index.",
+    "prerequisites": [
+      "Arrays",
+      "Greedy Basics"
+    ],
+    "tags": [
+      "leetcode",
+      "greedy"
+    ],
+    "active": true,
+    "lastVerifiedAt": "2026-10-02"
+  },
+  {
+    "resourceId": "lc-0036-valid-sudoku",
+    "title": "Valid Sudoku",
+    "provider": "LeetCode",
+    "url": "https://leetcode.com/problems/valid-sudoku/",
+    "roleTracks": [
+      "software-engineer"
+    ],
+    "skill": "Arrays and Hashing",
+    "category": "dsa-question",
+    "resourceType": "practice-problem",
+    "difficulty": "medium",
+    "estimatedMinutes": 40,
+    "costType": "free",
+    "handsOn": true,
+    "qualityScore": 95,
+    "description": "Practice arrays and hashing through a focused coding interview problem.",
+    "prerequisites": [
+      "Arrays",
+      "Hash Maps"
+    ],
+    "tags": [
+      "leetcode",
+      "matrix",
+      "hashing"
+    ],
+    "active": true,
+    "lastVerifiedAt": "2026-10-02"
+  },
+  {
+    "resourceId": "lc-0042-trapping-rain-water",
+    "title": "Trapping Rain Water",
+    "provider": "LeetCode",
+    "url": "https://leetcode.com/problems/trapping-rain-water/",
+    "roleTracks": [
+      "software-engineer"
+    ],
+    "skill": "Two Pointers",
+    "category": "dsa-question",
+    "resourceType": "practice-problem",
+    "difficulty": "hard",
+    "estimatedMinutes": 60,
+    "costType": "free",
+    "handsOn": true,
+    "qualityScore": 97,
+    "description": "Practice two pointers through a focused coding interview problem.",
+    "prerequisites": [
+      "Arrays",
+      "Two Pointers"
+    ],
+    "tags": [
+      "leetcode",
+      "two-pointers",
+      "prefix"
+    ],
+    "active": true,
+    "lastVerifiedAt": "2026-10-02"
+  },
+  {
+    "resourceId": "lc-0567-permutation-in-string",
+    "title": "Permutation in String",
+    "provider": "LeetCode",
+    "url": "https://leetcode.com/problems/permutation-in-string/",
+    "roleTracks": [
+      "software-engineer"
+    ],
+    "skill": "Sliding Window",
+    "category": "dsa-question",
+    "resourceType": "practice-problem",
+    "difficulty": "medium",
+    "estimatedMinutes": 45,
+    "costType": "free",
+    "handsOn": true,
+    "qualityScore": 95,
+    "description": "Practice sliding window through a focused coding interview problem.",
+    "prerequisites": [
+      "Strings",
+      "Sliding Window"
+    ],
+    "tags": [
+      "leetcode",
+      "sliding-window",
+      "frequency"
+    ],
+    "active": true,
+    "lastVerifiedAt": "2026-10-02"
+  },
+  {
+    "resourceId": "lc-0239-sliding-window-maximum",
+    "title": "Sliding Window Maximum",
+    "provider": "LeetCode",
+    "url": "https://leetcode.com/problems/sliding-window-maximum/",
+    "roleTracks": [
+      "software-engineer"
+    ],
+    "skill": "Monotonic Queue",
+    "category": "dsa-question",
+    "resourceType": "practice-problem",
+    "difficulty": "hard",
+    "estimatedMinutes": 60,
+    "costType": "free",
+    "handsOn": true,
+    "qualityScore": 97,
+    "description": "Practice monotonic queue through a focused coding interview problem.",
+    "prerequisites": [
+      "Sliding Window",
+      "Deque"
+    ],
+    "tags": [
+      "leetcode",
+      "sliding-window",
+      "deque"
+    ],
+    "active": true,
+    "lastVerifiedAt": "2026-10-02"
+  },
+  {
+    "resourceId": "lc-0150-evaluate-reverse-polish-notation",
+    "title": "Evaluate Reverse Polish Notation",
+    "provider": "LeetCode",
+    "url": "https://leetcode.com/problems/evaluate-reverse-polish-notation/",
+    "roleTracks": [
+      "software-engineer"
+    ],
+    "skill": "Stacks",
+    "category": "dsa-question",
+    "resourceType": "practice-problem",
+    "difficulty": "medium",
+    "estimatedMinutes": 35,
+    "costType": "free",
+    "handsOn": true,
+    "qualityScore": 95,
+    "description": "Practice stacks through a focused coding interview problem.",
+    "prerequisites": [
+      "Stacks"
+    ],
+    "tags": [
+      "leetcode",
+      "stack",
+      "expression"
+    ],
+    "active": true,
+    "lastVerifiedAt": "2026-10-02"
+  },
+  {
+    "resourceId": "lc-0853-car-fleet",
+    "title": "Car Fleet",
+    "provider": "LeetCode",
+    "url": "https://leetcode.com/problems/car-fleet/",
+    "roleTracks": [
+      "software-engineer"
+    ],
+    "skill": "Stacks",
+    "category": "dsa-question",
+    "resourceType": "practice-problem",
+    "difficulty": "medium",
+    "estimatedMinutes": 45,
+    "costType": "free",
+    "handsOn": true,
+    "qualityScore": 95,
+    "description": "Practice stacks through a focused coding interview problem.",
+    "prerequisites": [
+      "Sorting",
+      "Stacks"
+    ],
+    "tags": [
+      "leetcode",
+      "stack",
+      "sorting"
+    ],
+    "active": true,
+    "lastVerifiedAt": "2026-10-02"
+  },
+  {
+    "resourceId": "lc-0084-largest-rectangle-in-histogram",
+    "title": "Largest Rectangle in Histogram",
+    "provider": "LeetCode",
+    "url": "https://leetcode.com/problems/largest-rectangle-in-histogram/",
+    "roleTracks": [
+      "software-engineer"
+    ],
+    "skill": "Monotonic Stack",
+    "category": "dsa-question",
+    "resourceType": "practice-problem",
+    "difficulty": "hard",
+    "estimatedMinutes": 60,
+    "costType": "free",
+    "handsOn": true,
+    "qualityScore": 97,
+    "description": "Practice monotonic stack through a focused coding interview problem.",
+    "prerequisites": [
+      "Stacks"
+    ],
+    "tags": [
+      "leetcode",
+      "monotonic-stack",
+      "hard"
+    ],
+    "active": true,
+    "lastVerifiedAt": "2026-10-02"
+  },
+  {
+    "resourceId": "lc-0074-search-a-2d-matrix",
+    "title": "Search a 2D Matrix",
+    "provider": "LeetCode",
+    "url": "https://leetcode.com/problems/search-a-2d-matrix/",
+    "roleTracks": [
+      "software-engineer"
+    ],
+    "skill": "Binary Search",
+    "category": "dsa-question",
+    "resourceType": "practice-problem",
+    "difficulty": "medium",
+    "estimatedMinutes": 35,
+    "costType": "free",
+    "handsOn": true,
+    "qualityScore": 95,
+    "description": "Practice binary search through a focused coding interview problem.",
+    "prerequisites": [
+      "Binary Search",
+      "Matrices"
+    ],
+    "tags": [
+      "leetcode",
+      "binary-search",
+      "matrix"
+    ],
+    "active": true,
+    "lastVerifiedAt": "2026-10-02"
+  },
+  {
+    "resourceId": "lc-0153-find-minimum-in-rotated-sorted-array",
+    "title": "Find Minimum in Rotated Sorted Array",
+    "provider": "LeetCode",
+    "url": "https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/",
+    "roleTracks": [
+      "software-engineer"
+    ],
+    "skill": "Binary Search",
+    "category": "dsa-question",
+    "resourceType": "practice-problem",
+    "difficulty": "medium",
+    "estimatedMinutes": 35,
+    "costType": "free",
+    "handsOn": true,
+    "qualityScore": 95,
+    "description": "Practice binary search through a focused coding interview problem.",
+    "prerequisites": [
+      "Binary Search",
+      "Arrays"
+    ],
+    "tags": [
+      "leetcode",
+      "binary-search"
+    ],
+    "active": true,
+    "lastVerifiedAt": "2026-10-02"
+  },
+  {
+    "resourceId": "lc-0981-time-based-key-value-store",
+    "title": "Time Based Key-Value Store",
+    "provider": "LeetCode",
+    "url": "https://leetcode.com/problems/time-based-key-value-store/",
+    "roleTracks": [
+      "software-engineer"
+    ],
+    "skill": "Binary Search and Design",
+    "category": "dsa-question",
+    "resourceType": "practice-problem",
+    "difficulty": "medium",
+    "estimatedMinutes": 45,
+    "costType": "free",
+    "handsOn": true,
+    "qualityScore": 95,
+    "description": "Practice binary search and design through a focused coding interview problem.",
+    "prerequisites": [
+      "Hash Maps",
+      "Binary Search"
+    ],
+    "tags": [
+      "leetcode",
+      "binary-search",
+      "design"
+    ],
+    "active": true,
+    "lastVerifiedAt": "2026-10-02"
+  },
+  {
+    "resourceId": "lc-0019-remove-nth-node-from-end-of-list",
+    "title": "Remove Nth Node From End of List",
+    "provider": "LeetCode",
+    "url": "https://leetcode.com/problems/remove-nth-node-from-end-of-list/",
+    "roleTracks": [
+      "software-engineer"
+    ],
+    "skill": "Linked Lists",
+    "category": "dsa-question",
+    "resourceType": "practice-problem",
+    "difficulty": "medium",
+    "estimatedMinutes": 35,
+    "costType": "free",
+    "handsOn": true,
+    "qualityScore": 95,
+    "description": "Practice linked lists through a focused coding interview problem.",
+    "prerequisites": [
+      "Linked Lists",
+      "Two Pointers"
+    ],
+    "tags": [
+      "leetcode",
+      "linked-list",
+      "two-pointers"
+    ],
+    "active": true,
+    "lastVerifiedAt": "2026-10-02"
+  },
+  {
+    "resourceId": "lc-0138-copy-list-with-random-pointer",
+    "title": "Copy List with Random Pointer",
+    "provider": "LeetCode",
+    "url": "https://leetcode.com/problems/copy-list-with-random-pointer/",
+    "roleTracks": [
+      "software-engineer"
+    ],
+    "skill": "Linked Lists",
+    "category": "dsa-question",
+    "resourceType": "practice-problem",
+    "difficulty": "medium",
+    "estimatedMinutes": 50,
+    "costType": "free",
+    "handsOn": true,
+    "qualityScore": 95,
+    "description": "Practice linked lists through a focused coding interview problem.",
+    "prerequisites": [
+      "Linked Lists",
+      "Hash Maps"
+    ],
+    "tags": [
+      "leetcode",
+      "linked-list",
+      "hashing"
+    ],
+    "active": true,
+    "lastVerifiedAt": "2026-10-02"
+  },
+  {
+    "resourceId": "lc-0002-add-two-numbers",
+    "title": "Add Two Numbers",
+    "provider": "LeetCode",
+    "url": "https://leetcode.com/problems/add-two-numbers/",
+    "roleTracks": [
+      "software-engineer"
+    ],
+    "skill": "Linked Lists",
+    "category": "dsa-question",
+    "resourceType": "practice-problem",
+    "difficulty": "medium",
+    "estimatedMinutes": 40,
+    "costType": "free",
+    "handsOn": true,
+    "qualityScore": 95,
+    "description": "Practice linked lists through a focused coding interview problem.",
+    "prerequisites": [
+      "Linked Lists"
+    ],
+    "tags": [
+      "leetcode",
+      "linked-list",
+      "math"
+    ],
+    "active": true,
+    "lastVerifiedAt": "2026-10-02"
+  },
+  {
+    "resourceId": "lc-0287-find-the-duplicate-number",
+    "title": "Find the Duplicate Number",
+    "provider": "LeetCode",
+    "url": "https://leetcode.com/problems/find-the-duplicate-number/",
+    "roleTracks": [
+      "software-engineer"
+    ],
+    "skill": "Linked Lists and Cycles",
+    "category": "dsa-question",
+    "resourceType": "practice-problem",
+    "difficulty": "medium",
+    "estimatedMinutes": 45,
+    "costType": "free",
+    "handsOn": true,
+    "qualityScore": 95,
+    "description": "Practice linked lists and cycles through a focused coding interview problem.",
+    "prerequisites": [
+      "Arrays",
+      "Two Pointers"
+    ],
+    "tags": [
+      "leetcode",
+      "cycle-detection"
+    ],
+    "active": true,
+    "lastVerifiedAt": "2026-10-02"
+  },
+  {
+    "resourceId": "lc-0146-lru-cache",
+    "title": "LRU Cache",
+    "provider": "LeetCode",
+    "url": "https://leetcode.com/problems/lru-cache/",
+    "roleTracks": [
+      "software-engineer"
+    ],
+    "skill": "Data Structure Design",
+    "category": "dsa-question",
+    "resourceType": "practice-problem",
+    "difficulty": "medium",
+    "estimatedMinutes": 60,
+    "costType": "free",
+    "handsOn": true,
+    "qualityScore": 95,
+    "description": "Practice data structure design through a focused coding interview problem.",
+    "prerequisites": [
+      "Hash Maps",
+      "Linked Lists"
+    ],
+    "tags": [
+      "leetcode",
+      "design",
+      "cache"
+    ],
+    "active": true,
+    "lastVerifiedAt": "2026-10-02"
+  },
+  {
+    "resourceId": "lc-0572-subtree-of-another-tree",
+    "title": "Subtree of Another Tree",
+    "provider": "LeetCode",
+    "url": "https://leetcode.com/problems/subtree-of-another-tree/",
+    "roleTracks": [
+      "software-engineer"
+    ],
+    "skill": "Trees",
+    "category": "dsa-question",
+    "resourceType": "practice-problem",
+    "difficulty": "easy",
+    "estimatedMinutes": 30,
+    "costType": "free",
+    "handsOn": true,
+    "qualityScore": 95,
+    "description": "Practice trees through a focused coding interview problem.",
+    "prerequisites": [
+      "Binary Trees",
+      "DFS"
+    ],
+    "tags": [
+      "leetcode",
+      "trees",
+      "dfs"
+    ],
+    "active": true,
+    "lastVerifiedAt": "2026-10-02"
+  },
+  {
+    "resourceId": "lc-0110-balanced-binary-tree",
+    "title": "Balanced Binary Tree",
+    "provider": "LeetCode",
+    "url": "https://leetcode.com/problems/balanced-binary-tree/",
+    "roleTracks": [
+      "software-engineer"
+    ],
+    "skill": "Trees",
+    "category": "dsa-question",
+    "resourceType": "practice-problem",
+    "difficulty": "easy",
+    "estimatedMinutes": 30,
+    "costType": "free",
+    "handsOn": true,
+    "qualityScore": 95,
+    "description": "Practice trees through a focused coding interview problem.",
+    "prerequisites": [
+      "Binary Trees",
+      "DFS"
+    ],
+    "tags": [
+      "leetcode",
+      "trees",
+      "dfs"
+    ],
+    "active": true,
+    "lastVerifiedAt": "2026-10-02"
+  },
+  {
+    "resourceId": "lc-0543-diameter-of-binary-tree",
+    "title": "Diameter of Binary Tree",
+    "provider": "LeetCode",
+    "url": "https://leetcode.com/problems/diameter-of-binary-tree/",
+    "roleTracks": [
+      "software-engineer"
+    ],
+    "skill": "Trees",
+    "category": "dsa-question",
+    "resourceType": "practice-problem",
+    "difficulty": "easy",
+    "estimatedMinutes": 35,
+    "costType": "free",
+    "handsOn": true,
+    "qualityScore": 95,
+    "description": "Practice trees through a focused coding interview problem.",
+    "prerequisites": [
+      "Binary Trees",
+      "DFS"
+    ],
+    "tags": [
+      "leetcode",
+      "trees",
+      "dfs"
+    ],
+    "active": true,
+    "lastVerifiedAt": "2026-10-02"
+  },
+  {
+    "resourceId": "lc-0199-binary-tree-right-side-view",
+    "title": "Binary Tree Right Side View",
+    "provider": "LeetCode",
+    "url": "https://leetcode.com/problems/binary-tree-right-side-view/",
+    "roleTracks": [
+      "software-engineer"
+    ],
+    "skill": "Trees and BFS",
+    "category": "dsa-question",
+    "resourceType": "practice-problem",
+    "difficulty": "medium",
+    "estimatedMinutes": 35,
+    "costType": "free",
+    "handsOn": true,
+    "qualityScore": 95,
+    "description": "Practice trees and bfs through a focused coding interview problem.",
+    "prerequisites": [
+      "Binary Trees",
+      "BFS"
+    ],
+    "tags": [
+      "leetcode",
+      "trees",
+      "bfs"
+    ],
+    "active": true,
+    "lastVerifiedAt": "2026-10-02"
+  },
+  {
+    "resourceId": "lc-1448-count-good-nodes-in-binary-tree",
+    "title": "Count Good Nodes in Binary Tree",
+    "provider": "LeetCode",
+    "url": "https://leetcode.com/problems/count-good-nodes-in-binary-tree/",
+    "roleTracks": [
+      "software-engineer"
+    ],
+    "skill": "Trees and DFS",
+    "category": "dsa-question",
+    "resourceType": "practice-problem",
+    "difficulty": "medium",
+    "estimatedMinutes": 40,
+    "costType": "free",
+    "handsOn": true,
+    "qualityScore": 95,
+    "description": "Practice trees and dfs through a focused coding interview problem.",
+    "prerequisites": [
+      "Binary Trees",
+      "DFS"
+    ],
+    "tags": [
+      "leetcode",
+      "trees",
+      "dfs"
+    ],
+    "active": true,
+    "lastVerifiedAt": "2026-10-02"
+  },
+  {
+    "resourceId": "lc-0098-validate-binary-search-tree",
+    "title": "Validate Binary Search Tree",
+    "provider": "LeetCode",
+    "url": "https://leetcode.com/problems/validate-binary-search-tree/",
+    "roleTracks": [
+      "software-engineer"
+    ],
+    "skill": "Binary Search Trees",
+    "category": "dsa-question",
+    "resourceType": "practice-problem",
+    "difficulty": "medium",
+    "estimatedMinutes": 40,
+    "costType": "free",
+    "handsOn": true,
+    "qualityScore": 95,
+    "description": "Practice binary search trees through a focused coding interview problem.",
+    "prerequisites": [
+      "Binary Search Trees",
+      "DFS"
+    ],
+    "tags": [
+      "leetcode",
+      "bst",
+      "validation"
+    ],
+    "active": true,
+    "lastVerifiedAt": "2026-10-02"
+  },
+  {
+    "resourceId": "lc-0230-kth-smallest-element-in-a-bst",
+    "title": "Kth Smallest Element in a BST",
+    "provider": "LeetCode",
+    "url": "https://leetcode.com/problems/kth-smallest-element-in-a-bst/",
+    "roleTracks": [
+      "software-engineer"
+    ],
+    "skill": "Binary Search Trees",
+    "category": "dsa-question",
+    "resourceType": "practice-problem",
+    "difficulty": "medium",
+    "estimatedMinutes": 40,
+    "costType": "free",
+    "handsOn": true,
+    "qualityScore": 95,
+    "description": "Practice binary search trees through a focused coding interview problem.",
+    "prerequisites": [
+      "Binary Search Trees",
+      "Inorder Traversal"
+    ],
+    "tags": [
+      "leetcode",
+      "bst",
+      "inorder"
+    ],
+    "active": true,
+    "lastVerifiedAt": "2026-10-02"
+  },
+  {
+    "resourceId": "lc-0105-construct-binary-tree-from-preorder-and-inorder-traversal",
+    "title": "Construct Binary Tree from Preorder and Inorder Traversal",
+    "provider": "LeetCode",
+    "url": "https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/",
+    "roleTracks": [
+      "software-engineer"
+    ],
+    "skill": "Trees",
+    "category": "dsa-question",
+    "resourceType": "practice-problem",
+    "difficulty": "medium",
+    "estimatedMinutes": 50,
+    "costType": "free",
+    "handsOn": true,
+    "qualityScore": 95,
+    "description": "Practice trees through a focused coding interview problem.",
+    "prerequisites": [
+      "Binary Trees",
+      "Recursion",
+      "Hash Maps"
+    ],
+    "tags": [
+      "leetcode",
+      "trees",
+      "construction"
+    ],
+    "active": true,
+    "lastVerifiedAt": "2026-10-02"
+  },
+  {
+    "resourceId": "lc-0297-serialize-and-deserialize-binary-tree",
+    "title": "Serialize and Deserialize Binary Tree",
+    "provider": "LeetCode",
+    "url": "https://leetcode.com/problems/serialize-and-deserialize-binary-tree/",
+    "roleTracks": [
+      "software-engineer"
+    ],
+    "skill": "Trees and Design",
+    "category": "dsa-question",
+    "resourceType": "practice-problem",
+    "difficulty": "hard",
+    "estimatedMinutes": 65,
+    "costType": "free",
+    "handsOn": true,
+    "qualityScore": 97,
+    "description": "Practice trees and design through a focused coding interview problem.",
+    "prerequisites": [
+      "Binary Trees",
+      "BFS",
+      "DFS"
+    ],
+    "tags": [
+      "leetcode",
+      "trees",
+      "design"
+    ],
+    "active": true,
+    "lastVerifiedAt": "2026-10-02"
+  },
+  {
+    "resourceId": "lc-0208-implement-trie-prefix-tree",
+    "title": "Implement Trie",
+    "provider": "LeetCode",
+    "url": "https://leetcode.com/problems/implement-trie-prefix-tree/",
+    "roleTracks": [
+      "software-engineer"
+    ],
+    "skill": "Tries",
+    "category": "dsa-question",
+    "resourceType": "practice-problem",
+    "difficulty": "medium",
+    "estimatedMinutes": 45,
+    "costType": "free",
+    "handsOn": true,
+    "qualityScore": 95,
+    "description": "Practice tries through a focused coding interview problem.",
+    "prerequisites": [
+      "Strings",
+      "Trees"
+    ],
+    "tags": [
+      "leetcode",
+      "trie",
+      "design"
+    ],
+    "active": true,
+    "lastVerifiedAt": "2026-10-02"
+  },
+  {
+    "resourceId": "lc-0211-design-add-and-search-words-data-structure",
+    "title": "Design Add and Search Words Data Structure",
+    "provider": "LeetCode",
+    "url": "https://leetcode.com/problems/design-add-and-search-words-data-structure/",
+    "roleTracks": [
+      "software-engineer"
+    ],
+    "skill": "Tries",
+    "category": "dsa-question",
+    "resourceType": "practice-problem",
+    "difficulty": "medium",
+    "estimatedMinutes": 50,
+    "costType": "free",
+    "handsOn": true,
+    "qualityScore": 95,
+    "description": "Practice tries through a focused coding interview problem.",
+    "prerequisites": [
+      "Tries",
+      "DFS"
+    ],
+    "tags": [
+      "leetcode",
+      "trie",
+      "design"
+    ],
+    "active": true,
+    "lastVerifiedAt": "2026-10-02"
+  },
+  {
+    "resourceId": "lc-0212-word-search-ii",
+    "title": "Word Search II",
+    "provider": "LeetCode",
+    "url": "https://leetcode.com/problems/word-search-ii/",
+    "roleTracks": [
+      "software-engineer"
+    ],
+    "skill": "Tries and Backtracking",
+    "category": "dsa-question",
+    "resourceType": "practice-problem",
+    "difficulty": "hard",
+    "estimatedMinutes": 70,
+    "costType": "free",
+    "handsOn": true,
+    "qualityScore": 97,
+    "description": "Practice tries and backtracking through a focused coding interview problem.",
+    "prerequisites": [
+      "Tries",
+      "Backtracking",
+      "Matrices"
+    ],
+    "tags": [
+      "leetcode",
+      "trie",
+      "backtracking"
+    ],
+    "active": true,
+    "lastVerifiedAt": "2026-10-02"
+  },
+  {
+    "resourceId": "lc-1046-last-stone-weight",
+    "title": "Last Stone Weight",
+    "provider": "LeetCode",
+    "url": "https://leetcode.com/problems/last-stone-weight/",
+    "roleTracks": [
+      "software-engineer"
+    ],
+    "skill": "Heaps",
+    "category": "dsa-question",
+    "resourceType": "practice-problem",
+    "difficulty": "easy",
+    "estimatedMinutes": 25,
+    "costType": "free",
+    "handsOn": true,
+    "qualityScore": 95,
+    "description": "Practice heaps through a focused coding interview problem.",
+    "prerequisites": [
+      "Heaps"
+    ],
+    "tags": [
+      "leetcode",
+      "heap"
+    ],
+    "active": true,
+    "lastVerifiedAt": "2026-10-02"
+  },
+  {
+    "resourceId": "lc-0973-k-closest-points-to-origin",
+    "title": "K Closest Points to Origin",
+    "provider": "LeetCode",
+    "url": "https://leetcode.com/problems/k-closest-points-to-origin/",
+    "roleTracks": [
+      "software-engineer"
+    ],
+    "skill": "Heaps",
+    "category": "dsa-question",
+    "resourceType": "practice-problem",
+    "difficulty": "medium",
+    "estimatedMinutes": 35,
+    "costType": "free",
+    "handsOn": true,
+    "qualityScore": 95,
+    "description": "Practice heaps through a focused coding interview problem.",
+    "prerequisites": [
+      "Heaps",
+      "Geometry"
+    ],
+    "tags": [
+      "leetcode",
+      "heap",
+      "geometry"
+    ],
+    "active": true,
+    "lastVerifiedAt": "2026-10-02"
+  },
+  {
+    "resourceId": "lc-0621-task-scheduler",
+    "title": "Task Scheduler",
+    "provider": "LeetCode",
+    "url": "https://leetcode.com/problems/task-scheduler/",
+    "roleTracks": [
+      "software-engineer"
+    ],
+    "skill": "Greedy and Heaps",
+    "category": "dsa-question",
+    "resourceType": "practice-problem",
+    "difficulty": "medium",
+    "estimatedMinutes": 45,
+    "costType": "free",
+    "handsOn": true,
+    "qualityScore": 95,
+    "description": "Practice greedy and heaps through a focused coding interview problem.",
+    "prerequisites": [
+      "Heaps",
+      "Greedy Algorithms"
+    ],
+    "tags": [
+      "leetcode",
+      "heap",
+      "greedy"
+    ],
+    "active": true,
+    "lastVerifiedAt": "2026-10-02"
+  },
+  {
+    "resourceId": "lc-0295-find-median-from-data-stream",
+    "title": "Find Median from Data Stream",
+    "provider": "LeetCode",
+    "url": "https://leetcode.com/problems/find-median-from-data-stream/",
+    "roleTracks": [
+      "software-engineer"
+    ],
+    "skill": "Heaps and Design",
+    "category": "dsa-question",
+    "resourceType": "practice-problem",
+    "difficulty": "hard",
+    "estimatedMinutes": 65,
+    "costType": "free",
+    "handsOn": true,
+    "qualityScore": 97,
+    "description": "Practice heaps and design through a focused coding interview problem.",
+    "prerequisites": [
+      "Heaps"
+    ],
+    "tags": [
+      "leetcode",
+      "heap",
+      "design"
+    ],
+    "active": true,
+    "lastVerifiedAt": "2026-10-02"
+  },
+  {
+    "resourceId": "lc-0131-palindrome-partitioning",
+    "title": "Palindrome Partitioning",
+    "provider": "LeetCode",
+    "url": "https://leetcode.com/problems/palindrome-partitioning/",
+    "roleTracks": [
+      "software-engineer"
+    ],
+    "skill": "Backtracking",
+    "category": "dsa-question",
+    "resourceType": "practice-problem",
+    "difficulty": "medium",
+    "estimatedMinutes": 45,
+    "costType": "free",
+    "handsOn": true,
+    "qualityScore": 95,
+    "description": "Practice backtracking through a focused coding interview problem.",
+    "prerequisites": [
+      "Backtracking",
+      "Strings"
+    ],
+    "tags": [
+      "leetcode",
+      "backtracking",
+      "strings"
+    ],
+    "active": true,
+    "lastVerifiedAt": "2026-10-02"
+  },
+  {
+    "resourceId": "lc-0017-letter-combinations-of-a-phone-number",
+    "title": "Letter Combinations of a Phone Number",
+    "provider": "LeetCode",
+    "url": "https://leetcode.com/problems/letter-combinations-of-a-phone-number/",
+    "roleTracks": [
+      "software-engineer"
+    ],
+    "skill": "Backtracking",
+    "category": "dsa-question",
+    "resourceType": "practice-problem",
+    "difficulty": "medium",
+    "estimatedMinutes": 35,
+    "costType": "free",
+    "handsOn": true,
+    "qualityScore": 95,
+    "description": "Practice backtracking through a focused coding interview problem.",
+    "prerequisites": [
+      "Backtracking",
+      "Strings"
+    ],
+    "tags": [
+      "leetcode",
+      "backtracking"
+    ],
+    "active": true,
+    "lastVerifiedAt": "2026-10-02"
+  },
+  {
+    "resourceId": "lc-0051-n-queens",
+    "title": "N-Queens",
+    "provider": "LeetCode",
+    "url": "https://leetcode.com/problems/n-queens/",
+    "roleTracks": [
+      "software-engineer"
+    ],
+    "skill": "Backtracking",
+    "category": "dsa-question",
+    "resourceType": "practice-problem",
+    "difficulty": "hard",
+    "estimatedMinutes": 65,
+    "costType": "free",
+    "handsOn": true,
+    "qualityScore": 97,
+    "description": "Practice backtracking through a focused coding interview problem.",
+    "prerequisites": [
+      "Backtracking"
+    ],
+    "tags": [
+      "leetcode",
+      "backtracking",
+      "hard"
+    ],
+    "active": true,
+    "lastVerifiedAt": "2026-10-02"
+  },
+  {
+    "resourceId": "lc-0994-rotting-oranges",
+    "title": "Rotting Oranges",
+    "provider": "LeetCode",
+    "url": "https://leetcode.com/problems/rotting-oranges/",
+    "roleTracks": [
+      "software-engineer"
+    ],
+    "skill": "Graphs and BFS",
+    "category": "dsa-question",
+    "resourceType": "practice-problem",
+    "difficulty": "medium",
+    "estimatedMinutes": 40,
+    "costType": "free",
+    "handsOn": true,
+    "qualityScore": 95,
+    "description": "Practice graphs and bfs through a focused coding interview problem.",
+    "prerequisites": [
+      "BFS",
+      "Matrices"
+    ],
+    "tags": [
+      "leetcode",
+      "graphs",
+      "bfs"
+    ],
+    "active": true,
+    "lastVerifiedAt": "2026-10-02"
+  },
+  {
+    "resourceId": "lc-0130-surrounded-regions",
+    "title": "Surrounded Regions",
+    "provider": "LeetCode",
+    "url": "https://leetcode.com/problems/surrounded-regions/",
+    "roleTracks": [
+      "software-engineer"
+    ],
+    "skill": "Graphs and DFS",
+    "category": "dsa-question",
+    "resourceType": "practice-problem",
+    "difficulty": "medium",
+    "estimatedMinutes": 45,
+    "costType": "free",
+    "handsOn": true,
+    "qualityScore": 95,
+    "description": "Practice graphs and dfs through a focused coding interview problem.",
+    "prerequisites": [
+      "DFS",
+      "Matrices"
+    ],
+    "tags": [
+      "leetcode",
+      "graphs",
+      "dfs"
+    ],
+    "active": true,
+    "lastVerifiedAt": "2026-10-02"
+  },
+  {
+    "resourceId": "lc-0684-redundant-connection",
+    "title": "Redundant Connection",
+    "provider": "LeetCode",
+    "url": "https://leetcode.com/problems/redundant-connection/",
+    "roleTracks": [
+      "software-engineer"
+    ],
+    "skill": "Union Find",
+    "category": "dsa-question",
+    "resourceType": "practice-problem",
+    "difficulty": "medium",
+    "estimatedMinutes": 45,
+    "costType": "free",
+    "handsOn": true,
+    "qualityScore": 95,
+    "description": "Practice union find through a focused coding interview problem.",
+    "prerequisites": [
+      "Graphs",
+      "Union Find"
+    ],
+    "tags": [
+      "leetcode",
+      "graphs",
+      "union-find"
+    ],
+    "active": true,
+    "lastVerifiedAt": "2026-10-02"
+  },
+  {
+    "resourceId": "lc-0127-word-ladder",
+    "title": "Word Ladder",
+    "provider": "LeetCode",
+    "url": "https://leetcode.com/problems/word-ladder/",
+    "roleTracks": [
+      "software-engineer"
+    ],
+    "skill": "Graphs and BFS",
+    "category": "dsa-question",
+    "resourceType": "practice-problem",
+    "difficulty": "hard",
+    "estimatedMinutes": 60,
+    "costType": "free",
+    "handsOn": true,
+    "qualityScore": 97,
+    "description": "Practice graphs and bfs through a focused coding interview problem.",
+    "prerequisites": [
+      "BFS",
+      "Hash Maps",
+      "Strings"
+    ],
+    "tags": [
+      "leetcode",
+      "graphs",
+      "bfs"
+    ],
+    "active": true,
+    "lastVerifiedAt": "2026-10-02"
+  },
+  {
+    "resourceId": "lc-0743-network-delay-time",
+    "title": "Network Delay Time",
+    "provider": "LeetCode",
+    "url": "https://leetcode.com/problems/network-delay-time/",
+    "roleTracks": [
+      "software-engineer"
+    ],
+    "skill": "Shortest Paths",
+    "category": "dsa-question",
+    "resourceType": "practice-problem",
+    "difficulty": "medium",
+    "estimatedMinutes": 50,
+    "costType": "free",
+    "handsOn": true,
+    "qualityScore": 95,
+    "description": "Practice shortest paths through a focused coding interview problem.",
+    "prerequisites": [
+      "Graphs",
+      "Dijkstra Algorithm"
+    ],
+    "tags": [
+      "leetcode",
+      "graphs",
+      "dijkstra"
+    ],
+    "active": true,
+    "lastVerifiedAt": "2026-10-02"
+  },
+  {
+    "resourceId": "lc-0332-reconstruct-itinerary",
+    "title": "Reconstruct Itinerary",
+    "provider": "LeetCode",
+    "url": "https://leetcode.com/problems/reconstruct-itinerary/",
+    "roleTracks": [
+      "software-engineer"
+    ],
+    "skill": "Eulerian Path",
+    "category": "dsa-question",
+    "resourceType": "practice-problem",
+    "difficulty": "hard",
+    "estimatedMinutes": 60,
+    "costType": "free",
+    "handsOn": true,
+    "qualityScore": 97,
+    "description": "Practice eulerian path through a focused coding interview problem.",
+    "prerequisites": [
+      "Graphs",
+      "DFS"
+    ],
+    "tags": [
+      "leetcode",
+      "graphs",
+      "eulerian-path"
+    ],
+    "active": true,
+    "lastVerifiedAt": "2026-10-02"
+  },
+  {
+    "resourceId": "lc-1584-min-cost-to-connect-all-points",
+    "title": "Min Cost to Connect All Points",
+    "provider": "LeetCode",
+    "url": "https://leetcode.com/problems/min-cost-to-connect-all-points/",
+    "roleTracks": [
+      "software-engineer"
+    ],
+    "skill": "Minimum Spanning Tree",
+    "category": "dsa-question",
+    "resourceType": "practice-problem",
+    "difficulty": "medium",
+    "estimatedMinutes": 55,
+    "costType": "free",
+    "handsOn": true,
+    "qualityScore": 95,
+    "description": "Practice minimum spanning tree through a focused coding interview problem.",
+    "prerequisites": [
+      "Graphs",
+      "Minimum Spanning Tree"
+    ],
+    "tags": [
+      "leetcode",
+      "graphs",
+      "mst"
+    ],
+    "active": true,
+    "lastVerifiedAt": "2026-10-02"
+  },
+  {
+    "resourceId": "lc-0778-swim-in-rising-water",
+    "title": "Swim in Rising Water",
+    "provider": "LeetCode",
+    "url": "https://leetcode.com/problems/swim-in-rising-water/",
+    "roleTracks": [
+      "software-engineer"
+    ],
+    "skill": "Shortest Paths",
+    "category": "dsa-question",
+    "resourceType": "practice-problem",
+    "difficulty": "hard",
+    "estimatedMinutes": 65,
+    "costType": "free",
+    "handsOn": true,
+    "qualityScore": 97,
+    "description": "Practice shortest paths through a focused coding interview problem.",
+    "prerequisites": [
+      "Graphs",
+      "Heaps"
+    ],
+    "tags": [
+      "leetcode",
+      "graphs",
+      "dijkstra"
+    ],
+    "active": true,
+    "lastVerifiedAt": "2026-10-02"
+  },
+  {
+    "resourceId": "lc-0787-cheapest-flights-within-k-stops",
+    "title": "Cheapest Flights Within K Stops",
+    "provider": "LeetCode",
+    "url": "https://leetcode.com/problems/cheapest-flights-within-k-stops/",
+    "roleTracks": [
+      "software-engineer"
+    ],
+    "skill": "Shortest Paths",
+    "category": "dsa-question",
+    "resourceType": "practice-problem",
+    "difficulty": "medium",
+    "estimatedMinutes": 55,
+    "costType": "free",
+    "handsOn": true,
+    "qualityScore": 95,
+    "description": "Practice shortest paths through a focused coding interview problem.",
+    "prerequisites": [
+      "Graphs",
+      "Dynamic Programming"
+    ],
+    "tags": [
+      "leetcode",
+      "graphs",
+      "shortest-path"
+    ],
+    "active": true,
+    "lastVerifiedAt": "2026-10-02"
+  },
+  {
+    "resourceId": "lc-0091-decode-ways",
+    "title": "Decode Ways",
+    "provider": "LeetCode",
+    "url": "https://leetcode.com/problems/decode-ways/",
+    "roleTracks": [
+      "software-engineer"
+    ],
+    "skill": "Dynamic Programming",
+    "category": "dsa-question",
+    "resourceType": "practice-problem",
+    "difficulty": "medium",
+    "estimatedMinutes": 40,
+    "costType": "free",
+    "handsOn": true,
+    "qualityScore": 95,
+    "description": "Practice dynamic programming through a focused coding interview problem.",
+    "prerequisites": [
+      "Dynamic Programming Basics",
+      "Strings"
+    ],
+    "tags": [
+      "leetcode",
+      "dp",
+      "strings"
+    ],
+    "active": true,
+    "lastVerifiedAt": "2026-10-02"
+  },
+  {
+    "resourceId": "lc-0062-unique-paths",
+    "title": "Unique Paths",
+    "provider": "LeetCode",
+    "url": "https://leetcode.com/problems/unique-paths/",
+    "roleTracks": [
+      "software-engineer"
+    ],
+    "skill": "Dynamic Programming",
+    "category": "dsa-question",
+    "resourceType": "practice-problem",
+    "difficulty": "medium",
+    "estimatedMinutes": 35,
+    "costType": "free",
+    "handsOn": true,
+    "qualityScore": 95,
+    "description": "Practice dynamic programming through a focused coding interview problem.",
+    "prerequisites": [
+      "Dynamic Programming Basics",
+      "Matrices"
+    ],
+    "tags": [
+      "leetcode",
+      "dp",
+      "matrix"
+    ],
+    "active": true,
+    "lastVerifiedAt": "2026-10-02"
+  },
+  {
+    "resourceId": "lc-0494-target-sum",
+    "title": "Target Sum",
+    "provider": "LeetCode",
+    "url": "https://leetcode.com/problems/target-sum/",
+    "roleTracks": [
+      "software-engineer"
+    ],
+    "skill": "Dynamic Programming",
+    "category": "dsa-question",
+    "resourceType": "practice-problem",
+    "difficulty": "medium",
+    "estimatedMinutes": 50,
+    "costType": "free",
+    "handsOn": true,
+    "qualityScore": 95,
+    "description": "Practice dynamic programming through a focused coding interview problem.",
+    "prerequisites": [
+      "Dynamic Programming Basics",
+      "Subset Sum"
+    ],
+    "tags": [
+      "leetcode",
+      "dp",
+      "subset-sum"
+    ],
+    "active": true,
+    "lastVerifiedAt": "2026-10-02"
+  },
+  {
+    "resourceId": "lc-0416-partition-equal-subset-sum",
+    "title": "Partition Equal Subset Sum",
+    "provider": "LeetCode",
+    "url": "https://leetcode.com/problems/partition-equal-subset-sum/",
+    "roleTracks": [
+      "software-engineer"
+    ],
+    "skill": "Dynamic Programming",
+    "category": "dsa-question",
+    "resourceType": "practice-problem",
+    "difficulty": "medium",
+    "estimatedMinutes": 50,
+    "costType": "free",
+    "handsOn": true,
+    "qualityScore": 95,
+    "description": "Practice dynamic programming through a focused coding interview problem.",
+    "prerequisites": [
+      "Dynamic Programming Basics",
+      "Knapsack"
+    ],
+    "tags": [
+      "leetcode",
+      "dp",
+      "knapsack"
+    ],
+    "active": true,
+    "lastVerifiedAt": "2026-10-02"
+  },
+  {
+    "resourceId": "lc-0300-longest-increasing-subsequence",
+    "title": "Longest Increasing Subsequence",
+    "provider": "LeetCode",
+    "url": "https://leetcode.com/problems/longest-increasing-subsequence/",
+    "roleTracks": [
+      "software-engineer"
+    ],
+    "skill": "Dynamic Programming",
+    "category": "dsa-question",
+    "resourceType": "practice-problem",
+    "difficulty": "medium",
+    "estimatedMinutes": 50,
+    "costType": "free",
+    "handsOn": true,
+    "qualityScore": 95,
+    "description": "Practice dynamic programming through a focused coding interview problem.",
+    "prerequisites": [
+      "Dynamic Programming Basics",
+      "Binary Search"
+    ],
+    "tags": [
+      "leetcode",
+      "dp",
+      "binary-search"
+    ],
+    "active": true,
+    "lastVerifiedAt": "2026-10-02"
+  },
+  {
+    "resourceId": "lc-0377-combination-sum-iv",
+    "title": "Combination Sum IV",
+    "provider": "LeetCode",
+    "url": "https://leetcode.com/problems/combination-sum-iv/",
+    "roleTracks": [
+      "software-engineer"
+    ],
+    "skill": "Dynamic Programming",
+    "category": "dsa-question",
+    "resourceType": "practice-problem",
+    "difficulty": "medium",
+    "estimatedMinutes": 45,
+    "costType": "free",
+    "handsOn": true,
+    "qualityScore": 95,
+    "description": "Practice dynamic programming through a focused coding interview problem.",
+    "prerequisites": [
+      "Dynamic Programming Basics"
+    ],
+    "tags": [
+      "leetcode",
+      "dp"
+    ],
+    "active": true,
+    "lastVerifiedAt": "2026-10-02"
+  },
+  {
+    "resourceId": "lc-0309-best-time-to-buy-and-sell-stock-with-cooldown",
+    "title": "Best Time to Buy and Sell Stock with Cooldown",
+    "provider": "LeetCode",
+    "url": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/",
+    "roleTracks": [
+      "software-engineer"
+    ],
+    "skill": "Dynamic Programming",
+    "category": "dsa-question",
+    "resourceType": "practice-problem",
+    "difficulty": "medium",
+    "estimatedMinutes": 50,
+    "costType": "free",
+    "handsOn": true,
+    "qualityScore": 95,
+    "description": "Practice dynamic programming through a focused coding interview problem.",
+    "prerequisites": [
+      "Dynamic Programming Basics",
+      "Arrays"
+    ],
+    "tags": [
+      "leetcode",
+      "dp",
+      "state-machine"
+    ],
+    "active": true,
+    "lastVerifiedAt": "2026-10-02"
+  },
+  {
+    "resourceId": "lc-0518-coin-change-ii",
+    "title": "Coin Change II",
+    "provider": "LeetCode",
+    "url": "https://leetcode.com/problems/coin-change-ii/",
+    "roleTracks": [
+      "software-engineer"
+    ],
+    "skill": "Dynamic Programming",
+    "category": "dsa-question",
+    "resourceType": "practice-problem",
+    "difficulty": "medium",
+    "estimatedMinutes": 45,
+    "costType": "free",
+    "handsOn": true,
+    "qualityScore": 95,
+    "description": "Practice dynamic programming through a focused coding interview problem.",
+    "prerequisites": [
+      "Dynamic Programming Basics",
+      "Knapsack"
+    ],
+    "tags": [
+      "leetcode",
+      "dp",
+      "knapsack"
+    ],
+    "active": true,
+    "lastVerifiedAt": "2026-10-02"
+  },
+  {
+    "resourceId": "lc-0072-edit-distance",
+    "title": "Edit Distance",
+    "provider": "LeetCode",
+    "url": "https://leetcode.com/problems/edit-distance/",
+    "roleTracks": [
+      "software-engineer"
+    ],
+    "skill": "Dynamic Programming",
+    "category": "dsa-question",
+    "resourceType": "practice-problem",
+    "difficulty": "medium",
+    "estimatedMinutes": 60,
+    "costType": "free",
+    "handsOn": true,
+    "qualityScore": 95,
+    "description": "Practice dynamic programming through a focused coding interview problem.",
+    "prerequisites": [
+      "Dynamic Programming Basics",
+      "Strings"
+    ],
+    "tags": [
+      "leetcode",
+      "dp",
+      "strings"
+    ],
+    "active": true,
+    "lastVerifiedAt": "2026-10-02"
+  },
+  {
+    "resourceId": "lc-0312-burst-balloons",
+    "title": "Burst Balloons",
+    "provider": "LeetCode",
+    "url": "https://leetcode.com/problems/burst-balloons/",
+    "roleTracks": [
+      "software-engineer"
+    ],
+    "skill": "Interval Dynamic Programming",
+    "category": "dsa-question",
+    "resourceType": "practice-problem",
+    "difficulty": "hard",
+    "estimatedMinutes": 75,
+    "costType": "free",
+    "handsOn": true,
+    "qualityScore": 97,
+    "description": "Practice interval dynamic programming through a focused coding interview problem.",
+    "prerequisites": [
+      "Dynamic Programming"
+    ],
+    "tags": [
+      "leetcode",
+      "dp",
+      "interval-dp"
+    ],
+    "active": true,
+    "lastVerifiedAt": "2026-10-02"
+  },
+  {
+    "resourceId": "lc-0134-gas-station",
+    "title": "Gas Station",
+    "provider": "LeetCode",
+    "url": "https://leetcode.com/problems/gas-station/",
+    "roleTracks": [
+      "software-engineer"
+    ],
+    "skill": "Greedy Algorithms",
+    "category": "dsa-question",
+    "resourceType": "practice-problem",
+    "difficulty": "medium",
+    "estimatedMinutes": 40,
+    "costType": "free",
+    "handsOn": true,
+    "qualityScore": 95,
+    "description": "Practice greedy algorithms through a focused coding interview problem.",
+    "prerequisites": [
+      "Arrays",
+      "Greedy Algorithms"
+    ],
+    "tags": [
+      "leetcode",
+      "greedy"
+    ],
+    "active": true,
+    "lastVerifiedAt": "2026-10-02"
+  },
+  {
+    "resourceId": "lc-0846-hand-of-straights",
+    "title": "Hand of Straights",
+    "provider": "LeetCode",
+    "url": "https://leetcode.com/problems/hand-of-straights/",
+    "roleTracks": [
+      "software-engineer"
+    ],
+    "skill": "Greedy Algorithms",
+    "category": "dsa-question",
+    "resourceType": "practice-problem",
+    "difficulty": "medium",
+    "estimatedMinutes": 45,
+    "costType": "free",
+    "handsOn": true,
+    "qualityScore": 95,
+    "description": "Practice greedy algorithms through a focused coding interview problem.",
+    "prerequisites": [
+      "Hash Maps",
+      "Sorting"
+    ],
+    "tags": [
+      "leetcode",
+      "greedy",
+      "hashing"
+    ],
+    "active": true,
+    "lastVerifiedAt": "2026-10-02"
+  },
+  {
+    "resourceId": "lc-0763-partition-labels",
+    "title": "Partition Labels",
+    "provider": "LeetCode",
+    "url": "https://leetcode.com/problems/partition-labels/",
+    "roleTracks": [
+      "software-engineer"
+    ],
+    "skill": "Greedy Algorithms",
+    "category": "dsa-question",
+    "resourceType": "practice-problem",
+    "difficulty": "medium",
+    "estimatedMinutes": 40,
+    "costType": "free",
+    "handsOn": true,
+    "qualityScore": 95,
+    "description": "Practice greedy algorithms through a focused coding interview problem.",
+    "prerequisites": [
+      "Strings",
+      "Greedy Algorithms"
+    ],
+    "tags": [
+      "leetcode",
+      "greedy",
+      "strings"
+    ],
+    "active": true,
+    "lastVerifiedAt": "2026-10-02"
+  },
+  {
+    "resourceId": "lc-0678-valid-parenthesis-string",
+    "title": "Valid Parenthesis String",
+    "provider": "LeetCode",
+    "url": "https://leetcode.com/problems/valid-parenthesis-string/",
+    "roleTracks": [
+      "software-engineer"
+    ],
+    "skill": "Greedy Algorithms",
+    "category": "dsa-question",
+    "resourceType": "practice-problem",
+    "difficulty": "medium",
+    "estimatedMinutes": 45,
+    "costType": "free",
+    "handsOn": true,
+    "qualityScore": 95,
+    "description": "Practice greedy algorithms through a focused coding interview problem.",
+    "prerequisites": [
+      "Strings",
+      "Greedy Algorithms"
+    ],
+    "tags": [
+      "leetcode",
+      "greedy",
+      "strings"
+    ],
+    "active": true,
+    "lastVerifiedAt": "2026-10-02"
+  },
+  {
+    "resourceId": "lc-0435-non-overlapping-intervals",
+    "title": "Non-overlapping Intervals",
+    "provider": "LeetCode",
+    "url": "https://leetcode.com/problems/non-overlapping-intervals/",
+    "roleTracks": [
+      "software-engineer"
+    ],
+    "skill": "Intervals and Greedy",
+    "category": "dsa-question",
+    "resourceType": "practice-problem",
+    "difficulty": "medium",
+    "estimatedMinutes": 40,
+    "costType": "free",
+    "handsOn": true,
+    "qualityScore": 95,
+    "description": "Practice intervals and greedy through a focused coding interview problem.",
+    "prerequisites": [
+      "Intervals",
+      "Sorting"
+    ],
+    "tags": [
+      "leetcode",
+      "intervals",
+      "greedy"
+    ],
+    "active": true,
+    "lastVerifiedAt": "2026-10-02"
+  },
+  {
+    "resourceId": "lc-0452-minimum-number-of-arrows-to-burst-balloons",
+    "title": "Minimum Number of Arrows to Burst Balloons",
+    "provider": "LeetCode",
+    "url": "https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/",
+    "roleTracks": [
+      "software-engineer"
+    ],
+    "skill": "Intervals and Greedy",
+    "category": "dsa-question",
+    "resourceType": "practice-problem",
+    "difficulty": "medium",
+    "estimatedMinutes": 40,
+    "costType": "free",
+    "handsOn": true,
+    "qualityScore": 95,
+    "description": "Practice intervals and greedy through a focused coding interview problem.",
+    "prerequisites": [
+      "Intervals",
+      "Sorting"
+    ],
+    "tags": [
+      "leetcode",
+      "intervals",
+      "greedy"
+    ],
+    "active": true,
+    "lastVerifiedAt": "2026-10-02"
+  },
+  {
+    "resourceId": "lc-0048-rotate-image",
+    "title": "Rotate Image",
+    "provider": "LeetCode",
+    "url": "https://leetcode.com/problems/rotate-image/",
+    "roleTracks": [
+      "software-engineer"
+    ],
+    "skill": "Matrices",
+    "category": "dsa-question",
+    "resourceType": "practice-problem",
+    "difficulty": "medium",
+    "estimatedMinutes": 40,
+    "costType": "free",
+    "handsOn": true,
+    "qualityScore": 95,
+    "description": "Practice matrices through a focused coding interview problem.",
+    "prerequisites": [
+      "Matrices"
+    ],
+    "tags": [
+      "leetcode",
+      "matrix"
+    ],
+    "active": true,
+    "lastVerifiedAt": "2026-10-02"
+  },
+  {
+    "resourceId": "lc-0054-spiral-matrix",
+    "title": "Spiral Matrix",
+    "provider": "LeetCode",
+    "url": "https://leetcode.com/problems/spiral-matrix/",
+    "roleTracks": [
+      "software-engineer"
+    ],
+    "skill": "Matrices",
+    "category": "dsa-question",
+    "resourceType": "practice-problem",
+    "difficulty": "medium",
+    "estimatedMinutes": 35,
+    "costType": "free",
+    "handsOn": true,
+    "qualityScore": 95,
+    "description": "Practice matrices through a focused coding interview problem.",
+    "prerequisites": [
+      "Matrices"
+    ],
+    "tags": [
+      "leetcode",
+      "matrix",
+      "simulation"
+    ],
+    "active": true,
+    "lastVerifiedAt": "2026-10-02"
+  },
+  {
+    "resourceId": "lc-0073-set-matrix-zeroes",
+    "title": "Set Matrix Zeroes",
+    "provider": "LeetCode",
+    "url": "https://leetcode.com/problems/set-matrix-zeroes/",
+    "roleTracks": [
+      "software-engineer"
+    ],
+    "skill": "Matrices",
+    "category": "dsa-question",
+    "resourceType": "practice-problem",
+    "difficulty": "medium",
+    "estimatedMinutes": 40,
+    "costType": "free",
+    "handsOn": true,
+    "qualityScore": 95,
+    "description": "Practice matrices through a focused coding interview problem.",
+    "prerequisites": [
+      "Matrices"
+    ],
+    "tags": [
+      "leetcode",
+      "matrix"
+    ],
+    "active": true,
+    "lastVerifiedAt": "2026-10-02"
+  },
+  {
+    "resourceId": "lc-0202-happy-number",
+    "title": "Happy Number",
+    "provider": "LeetCode",
+    "url": "https://leetcode.com/problems/happy-number/",
+    "roleTracks": [
+      "software-engineer"
+    ],
+    "skill": "Math and Hashing",
+    "category": "dsa-question",
+    "resourceType": "practice-problem",
+    "difficulty": "easy",
+    "estimatedMinutes": 25,
+    "costType": "free",
+    "handsOn": true,
+    "qualityScore": 95,
+    "description": "Practice math and hashing through a focused coding interview problem.",
+    "prerequisites": [
+      "Hash Maps",
+      "Math"
+    ],
+    "tags": [
+      "leetcode",
+      "math",
+      "hashing"
+    ],
+    "active": true,
+    "lastVerifiedAt": "2026-10-02"
+  },
+  {
+    "resourceId": "lc-0066-plus-one",
+    "title": "Plus One",
+    "provider": "LeetCode",
+    "url": "https://leetcode.com/problems/plus-one/",
+    "roleTracks": [
+      "software-engineer"
+    ],
+    "skill": "Math and Arrays",
+    "category": "dsa-question",
+    "resourceType": "practice-problem",
+    "difficulty": "easy",
+    "estimatedMinutes": 20,
+    "costType": "free",
+    "handsOn": true,
+    "qualityScore": 95,
+    "description": "Practice math and arrays through a focused coding interview problem.",
+    "prerequisites": [
+      "Arrays"
+    ],
+    "tags": [
+      "leetcode",
+      "math",
+      "arrays"
+    ],
+    "active": true,
+    "lastVerifiedAt": "2026-10-02"
+  },
+  {
+    "resourceId": "lc-0050-powx-n",
+    "title": "Pow(x, n)",
+    "provider": "LeetCode",
+    "url": "https://leetcode.com/problems/powx-n/",
+    "roleTracks": [
+      "software-engineer"
+    ],
+    "skill": "Math and Recursion",
+    "category": "dsa-question",
+    "resourceType": "practice-problem",
+    "difficulty": "medium",
+    "estimatedMinutes": 40,
+    "costType": "free",
+    "handsOn": true,
+    "qualityScore": 95,
+    "description": "Practice math and recursion through a focused coding interview problem.",
+    "prerequisites": [
+      "Recursion"
+    ],
+    "tags": [
+      "leetcode",
+      "math",
+      "divide-and-conquer"
+    ],
+    "active": true,
+    "lastVerifiedAt": "2026-10-02"
+  },
+  {
+    "resourceId": "lc-0043-multiply-strings",
+    "title": "Multiply Strings",
+    "provider": "LeetCode",
+    "url": "https://leetcode.com/problems/multiply-strings/",
+    "roleTracks": [
+      "software-engineer"
+    ],
+    "skill": "Math and Strings",
+    "category": "dsa-question",
+    "resourceType": "practice-problem",
+    "difficulty": "medium",
+    "estimatedMinutes": 45,
+    "costType": "free",
+    "handsOn": true,
+    "qualityScore": 95,
+    "description": "Practice math and strings through a focused coding interview problem.",
+    "prerequisites": [
+      "Strings",
+      "Math"
+    ],
+    "tags": [
+      "leetcode",
+      "math",
+      "strings"
+    ],
+    "active": true,
+    "lastVerifiedAt": "2026-10-02"
+  },
+  {
+    "resourceId": "lc-0136-single-number",
+    "title": "Single Number",
+    "provider": "LeetCode",
+    "url": "https://leetcode.com/problems/single-number/",
+    "roleTracks": [
+      "software-engineer"
+    ],
+    "skill": "Bit Manipulation",
+    "category": "dsa-question",
+    "resourceType": "practice-problem",
+    "difficulty": "easy",
+    "estimatedMinutes": 20,
+    "costType": "free",
+    "handsOn": true,
+    "qualityScore": 95,
+    "description": "Practice bit manipulation through a focused coding interview problem.",
+    "prerequisites": [
+      "Bit Manipulation"
+    ],
+    "tags": [
+      "leetcode",
+      "bit-manipulation"
+    ],
+    "active": true,
+    "lastVerifiedAt": "2026-10-02"
+  },
+  {
+    "resourceId": "lc-0191-number-of-1-bits",
+    "title": "Number of 1 Bits",
+    "provider": "LeetCode",
+    "url": "https://leetcode.com/problems/number-of-1-bits/",
+    "roleTracks": [
+      "software-engineer"
+    ],
+    "skill": "Bit Manipulation",
+    "category": "dsa-question",
+    "resourceType": "practice-problem",
+    "difficulty": "easy",
+    "estimatedMinutes": 20,
+    "costType": "free",
+    "handsOn": true,
+    "qualityScore": 95,
+    "description": "Practice bit manipulation through a focused coding interview problem.",
+    "prerequisites": [
+      "Bit Manipulation"
+    ],
+    "tags": [
+      "leetcode",
+      "bit-manipulation"
+    ],
+    "active": true,
+    "lastVerifiedAt": "2026-10-02"
+  },
+  {
+    "resourceId": "lc-0338-counting-bits",
+    "title": "Counting Bits",
+    "provider": "LeetCode",
+    "url": "https://leetcode.com/problems/counting-bits/",
+    "roleTracks": [
+      "software-engineer"
+    ],
+    "skill": "Bit Manipulation",
+    "category": "dsa-question",
+    "resourceType": "practice-problem",
+    "difficulty": "easy",
+    "estimatedMinutes": 30,
+    "costType": "free",
+    "handsOn": true,
+    "qualityScore": 95,
+    "description": "Practice bit manipulation through a focused coding interview problem.",
+    "prerequisites": [
+      "Bit Manipulation",
+      "Dynamic Programming Basics"
+    ],
+    "tags": [
+      "leetcode",
+      "bit-manipulation",
+      "dp"
+    ],
+    "active": true,
+    "lastVerifiedAt": "2026-10-02"
+  },
+  {
+    "resourceId": "lc-0190-reverse-bits",
+    "title": "Reverse Bits",
+    "provider": "LeetCode",
+    "url": "https://leetcode.com/problems/reverse-bits/",
+    "roleTracks": [
+      "software-engineer"
+    ],
+    "skill": "Bit Manipulation",
+    "category": "dsa-question",
+    "resourceType": "practice-problem",
+    "difficulty": "easy",
+    "estimatedMinutes": 25,
+    "costType": "free",
+    "handsOn": true,
+    "qualityScore": 95,
+    "description": "Practice bit manipulation through a focused coding interview problem.",
+    "prerequisites": [
+      "Bit Manipulation"
+    ],
+    "tags": [
+      "leetcode",
+      "bit-manipulation"
+    ],
+    "active": true,
+    "lastVerifiedAt": "2026-10-02"
+  },
+  {
+    "resourceId": "lc-0268-missing-number",
+    "title": "Missing Number",
+    "provider": "LeetCode",
+    "url": "https://leetcode.com/problems/missing-number/",
+    "roleTracks": [
+      "software-engineer"
+    ],
+    "skill": "Bit Manipulation",
+    "category": "dsa-question",
+    "resourceType": "practice-problem",
+    "difficulty": "easy",
+    "estimatedMinutes": 25,
+    "costType": "free",
+    "handsOn": true,
+    "qualityScore": 95,
+    "description": "Practice bit manipulation through a focused coding interview problem.",
+    "prerequisites": [
+      "Arrays",
+      "Bit Manipulation"
+    ],
+    "tags": [
+      "leetcode",
+      "bit-manipulation",
+      "arrays"
+    ],
+    "active": true,
+    "lastVerifiedAt": "2026-10-02"
+  },
+  {
+    "resourceId": "lc-0371-sum-of-two-integers",
+    "title": "Sum of Two Integers",
+    "provider": "LeetCode",
+    "url": "https://leetcode.com/problems/sum-of-two-integers/",
+    "roleTracks": [
+      "software-engineer"
+    ],
+    "skill": "Bit Manipulation",
+    "category": "dsa-question",
+    "resourceType": "practice-problem",
+    "difficulty": "medium",
+    "estimatedMinutes": 40,
+    "costType": "free",
+    "handsOn": true,
+    "qualityScore": 95,
+    "description": "Practice bit manipulation through a focused coding interview problem.",
+    "prerequisites": [
+      "Bit Manipulation"
+    ],
+    "tags": [
+      "leetcode",
+      "bit-manipulation"
+    ],
+    "active": true,
+    "lastVerifiedAt": "2026-10-02"
+  }
+]

@@ -1,4 +1,6 @@
 const StudyPlan = require('../models/StudyPlan');
+const Analysis  = require('../models/Analysis');
+const { buildStudyPlan } = require('../services/studyPlanService');
 
 const calculateProgress = (plan) => {
   const totalTasks = plan.tasks.length;
@@ -9,14 +11,41 @@ const calculateProgress = (plan) => {
 
 exports.getProgressOverview = async (req, res) => {
   try {
-    const plan = await StudyPlan.findOne({ analysisId: req.params.analysisId });
-    if (!plan) return res.status(404).json({ message: 'Study plan not found' });
+    const { analysisId } = req.params;
+
+    // Try to find an existing plan
+    let plan = await StudyPlan.findOne({ analysisId });
+
+    // Auto-create if it doesn't exist yet
+    if (!plan) {
+      const analysis = await Analysis.findById(analysisId);
+      if (!analysis) {
+        return res.status(404).json({ message: 'Analysis not found. Please run an analysis first.' });
+      }
+
+      const planData = buildStudyPlan(analysis);
+      plan = new StudyPlan({
+        userId: req.user._id,
+        analysisId: analysis._id,
+        ...planData,
+      });
+      await plan.save();
+    }
+
+    const completedTasks = plan.tasks.filter(t => t.status === 'completed').length;
+    const completedMilestones = plan.milestones.filter(m => m.status === 'completed').length;
+
     res.status(200).json({
       progressPercentage: plan.progressPercentage,
       totalTasks: plan.tasks.length,
-      completedTasks: plan.tasks.filter(t => t.status === 'completed').length,
+      completedTasks,
+      totalMilestones: plan.milestones.length,
+      completedMilestones,
+      targetRole: plan.targetRole,
+      durationWeeks: plan.durationWeeks,
+      status: plan.status,
       tasks: plan.tasks,
-      milestones: plan.milestones
+      milestones: plan.milestones,
     });
   } catch (err) {
     console.error('Error fetching progress:', err);

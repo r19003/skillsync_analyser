@@ -14,6 +14,8 @@ const progressRoutes = require('./routes/progressRoutes');
 const comparisonRoutes = require('./routes/comparisonRoutes');
 const multiCompareRoutes = require('./routes/multiCompareRoutes');
 const deepReportRoutes   = require('./routes/deepReportRoutes');
+const careerAnalyticsRoutes = require('./routes/careerAnalyticsRoutes');
+const careerWorkspaceRoutes = require('./routes/careerWorkspaceRoutes');
 const { notFound, errorHandler } = require('./middleware/errorMiddleware');
 
 // ─────────────────────────────────────────────
@@ -62,6 +64,8 @@ app.use('/api/progress', progressRoutes);
 app.use('/api/comparison', comparisonRoutes);
 app.use('/api/multi-compare', multiCompareRoutes);
 app.use('/api/deep-report',   deepReportRoutes);
+app.use('/api/career-analytics', careerAnalyticsRoutes);
+app.use('/api/career-workspace', careerWorkspaceRoutes);
 
 // Health check endpoint
 app.get('/api/health', (req, res) => {

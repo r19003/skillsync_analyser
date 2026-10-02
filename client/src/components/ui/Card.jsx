@@ -7,6 +7,7 @@ import { motion } from 'framer-motion';
 const Card = ({ children, className = '', hover = false, style = {}, onClick }) => {
   return (
     <motion.div
+      className={className}
       onClick={onClick}
       whileHover={hover ? { y: -4, boxShadow: '0 12px 40px rgba(99,102,241,0.2)' } : {}}
       transition={{ duration: 0.2 }}

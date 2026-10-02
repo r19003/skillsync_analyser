@@ -17,6 +17,8 @@
  *          missingSkills, extraSkills, strengths, weaknesses, recommendations
  */
 
+const { GoogleGenerativeAI } = require('@google/generative-ai');
+
 // ─────────────────────────────────────────────────────────────────────────────
 // 1. Keyword Match Score (40 points)
 //    How many JD keywords appear in the resume text?
@@ -223,9 +225,9 @@ const generateFeedback = ({ matchedSkills, missingSkills, extraSkills, sections,
 };
 
 // ─────────────────────────────────────────────────────────────────────────────
-// Main export: computeATSScore
+// Fallback: Rule-based computeATSScore
 // ─────────────────────────────────────────────────────────────────────────────
-const computeATSScore = ({ resumeText, resumeSkills, parsedSections, jobKeywords, requiredJobSkills }) => {
+const computeATSScoreRuleBased = ({ resumeText, resumeSkills, parsedSections, jobKeywords, requiredJobSkills }) => {
 
   // Run each scoring component
   const keywordResult = scoreKeywordMatch(resumeText, jobKeywords);
@@ -277,4 +279,83 @@ const computeATSScore = ({ resumeText, resumeSkills, parsedSections, jobKeywords
   };
 };
 
-module.exports = { computeATSScore };
+// ─────────────────────────────────────────────────────────────────────────────
+// Main export: computeATSScore (AI-driven)
+// ─────────────────────────────────────────────────────────────────────────────
+const computeATSScore = async (params) => {
+  const { resumeText, resumeSkills, parsedSections, jobKeywords, requiredJobSkills } = params;
+  
+  if (!process.env.GEMINI_API_KEY) {
+    console.warn('GEMINI_API_KEY not found. Falling back to rule-based scoring.');
+    return computeATSScoreRuleBased(params);
+  }
+
+  const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
+
+  const prompt = `
+You are an expert ATS (Applicant Tracking System) and senior technical recruiter. 
+Please evaluate the following resume against the provided job keywords and skills. 
+
+Resume Text:
+${resumeText.substring(0, 4000)}
+
+Resume Skills:
+${(resumeSkills || []).join(', ')}
+
+Resume Sections Detected:
+${JSON.stringify(parsedSections || {})}
+
+Job Keywords:
+${(jobKeywords || []).join(', ')}
+
+Required Job Skills:
+${(requiredJobSkills || []).join(', ')}
+
+Evaluate the resume and return ONLY a valid JSON object with the following structure (no markdown, no backticks, just the raw JSON object):
+{
+  "atsScore": <number 0-100 representing overall match and quality>,
+  "matchPercentage": <number 0-100 representing how well the skills match>,
+  "scoreBreakdown": {
+    "keywordMatch": { "score": <number 0-40>, "maxScore": 40, "detail": "String explaining the score" },
+    "skillsOverlap": { "score": <number 0-20>, "maxScore": 20, "detail": "String explaining the score" },
+    "sectionCompleteness": { "score": <number 0-20>, "maxScore": 20, "detail": "String explaining the score" },
+    "formatting": { "score": <number 0-10>, "maxScore": 10, "detail": "String explaining the score" },
+    "experienceRelevance": { "score": <number 0-10>, "maxScore": 10, "detail": "String explaining the score" }
+  },
+  "matchedSkills": ["array of matching skill strings"],
+  "missingSkills": ["array of missing skill strings from requiredJobSkills"],
+  "extraSkills": ["array of extra skills the candidate has"],
+  "strengths": ["array of 3-5 string strengths"],
+  "weaknesses": ["array of 3-5 string weaknesses"],
+  "recommendations": ["array of 3-5 string recommendations"]
+}
+
+Ensure the sum of the breakdown scores equals the atsScore exactly. Make sure your evaluation is realistic and critical.`;
+
+  try {
+    const model = genAI.getGenerativeModel({ model: 'gemini-1.5-flash' });
+    const result = await model.generateContent(prompt);
+    const text = result.response.text().trim();
+    
+    const cleanJson = text.replace(/^\\s*\`\`\`json\\s*/i, '').replace(/^\\s*\`\`\`\\s*/i, '').replace(/\\s*\`\`\`\\s*$/i, '').trim();
+    const parsed = JSON.parse(cleanJson);
+    
+    // Ensure all required fields exist
+    return {
+      atsScore: parsed.atsScore || 0,
+      matchPercentage: parsed.matchPercentage || 0,
+      scoreBreakdown: parsed.scoreBreakdown || computeATSScoreRuleBased(params).scoreBreakdown,
+      matchedSkills: parsed.matchedSkills || [],
+      missingSkills: parsed.missingSkills || [],
+      extraSkills: parsed.extraSkills || [],
+      strengths: parsed.strengths || [],
+      weaknesses: parsed.weaknesses || [],
+      recommendations: parsed.recommendations || []
+    };
+  } catch (err) {
+    console.error("AI Scoring failed, falling back to rule-based scoring:", err.message);
+    return computeATSScoreRuleBased(params);
+  }
+};
+
+module.exports = { computeATSScore, computeATSScoreRuleBased };

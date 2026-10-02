@@ -2,16 +2,17 @@ import { useState } from 'react';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import {
-  LayoutDashboard, Upload, History, LogOut, Brain, Menu, X, User,
+  LayoutDashboard, Upload, History, LogOut, Brain, Menu, X, User, Compass,
 } from 'lucide-react';
 import useAuth from '../../hooks/useAuth';
 import toast from 'react-hot-toast';
 
 const navItems = [
-  { label: 'Dashboard',     path: '/dashboard',  icon: LayoutDashboard },
-  { label: 'Upload Resume', path: '/upload',      icon: Upload },
-  { label: 'History',       path: '/history',     icon: History },
-  { label: 'Compare',       path: '/compare',     icon: Brain },
+  { label: 'Dashboard',        path: '/dashboard',         icon: LayoutDashboard },
+  { label: 'Career Analytics', path: '/career-analytics',  icon: Compass },
+  { label: 'Upload Resume',    path: '/upload',            icon: Upload },
+  { label: 'History',          path: '/history',           icon: History },
+  { label: 'Compare',          path: '/compare',           icon: Brain },
 ];
 
 const Navbar = () => {

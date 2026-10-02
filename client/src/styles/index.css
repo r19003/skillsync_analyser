@@ -1,10 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
 @import "tailwindcss";
+
+@theme {
+  --color-surface-base: #0a0f1e;
+  --color-surface-card: #111827;
+  --color-surface-hover: #1a2235;
+  --color-surface-border: rgba(255, 255, 255, 0.08);
+  --color-surface-elevated: #151d30;
+
+  --color-primary-50: #eef2ff;
+  --color-primary-100: #e0e7ff;
+  --color-primary-200: #c7d2fe;
+  --color-primary-300: #a5b4fc;
+  --color-primary-400: #818cf8;
+  --color-primary-500: #6366f1;
+  --color-primary-600: #4f46e5;
+  --color-primary-700: #4338ca;
+  --color-primary-800: #3730a3;
+  --color-primary-900: #312e81;
+
+  --color-text-primary: #f8fafc;
+  --color-text-secondary: #94a3b8;
+  --color-text-muted: #64748b;
+}
 
 /* ──────────────────────────────────────────────────────────────
    SkillSync Global Design System
    ────────────────────────────────────────────────────────────── */
-
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
 
 :root {
   /* Brand Colors */
@@ -26,10 +48,11 @@
   --shadow-glow: 0 0 30px rgba(99,102,241,0.15);
 }
 
-* {
+*, ::before, ::after {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  border-color: rgba(255, 255, 255, 0.08);
 }
 
 html {
@@ -44,10 +67,21 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
+/* Reliable Design Tokens */
+.bg-surface-base     { background-color: #0a0f1e !important; }
+.bg-surface-card     { background-color: #111827 !important; }
+.bg-surface-hover    { background-color: #1a2235 !important; }
+.bg-surface-elevated { background-color: #151d30 !important; }
+.border-surface-border { border-color: rgba(255, 255, 255, 0.08) !important; }
+.text-text-primary   { color: #f8fafc !important; }
+.text-text-secondary { color: #94a3b8 !important; }
+.text-text-muted     { color: #64748b !important; }
+
 /* Scrollbar styling */
-::-webkit-scrollbar { width: 6px; }
-::-webkit-scrollbar-track { background: var(--color-surface); }
-::-webkit-scrollbar-thumb { background: var(--color-primary); border-radius: 3px; }
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: #0a0f1e; }
+::-webkit-scrollbar-thumb { background: #334155; border-radius: 4px; }
+::-webkit-scrollbar-thumb:hover { background: #475569; }
 
 /* Focus ring */
 *:focus-visible {
@@ -58,7 +92,7 @@ body {
 
 /* Glass card utility */
 .glass {
-  background: rgba(17, 24, 39, 0.8);
+  background: rgba(17, 24, 39, 0.85);
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
   border: 1px solid var(--color-border);
@@ -93,4 +127,13 @@ body {
 /* Smooth transitions */
 .transition-all {
   transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Hide scrollbar utilities */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }

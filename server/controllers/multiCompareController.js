@@ -21,7 +21,7 @@ exports.runMultiComparison = async (req, res) => {
       const resume = await Resume.findById(rid);
       if (!resume || resume.userId.toString() !== req.user._id.toString()) continue;
 
-      const scoringResult = computeATSScore({
+      const scoringResult = await computeATSScore({
         resumeText: resume.extractedText || '',
         resumeSkills: resume.parsedData?.skills || [],
         parsedSections: resume.parsedData?.sections || {},
